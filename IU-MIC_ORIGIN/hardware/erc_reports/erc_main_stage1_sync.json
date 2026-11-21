@@ -1,0 +1,757 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T17:51:12",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/04aaa4c3-1eb4-4ba7-a753-b9eb7e2c9ee5",
+            "violations": [
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo J1 [S1_J1]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 50.8
+                            },
+                            "uuid": "ae6be7b2-cdf8-4a3e-b649-95685a47834a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo D_TVS1 [S1_D_TVS1]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 127.0
+                            },
+                            "uuid": "ab837899-2624-4fee-8962-6f8d8bc8e0d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U4 [S1_U4]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 203.2
+                            },
+                            "uuid": "0afea6c3-6234-467e-9c1e-29bdbfde50f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VDD1 [S1_C_VDD1]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 279.4
+                            },
+                            "uuid": "ac09d716-b397-4cc6-8faf-41ab520626bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U6 [S1_U6]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 355.6
+                            },
+                            "uuid": "af08fd13-4d20-443d-8fa7-ff39754a461f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_HPF_FB [S1_R_HPF_FB]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 431.8
+                            },
+                            "uuid": "2deebf81-b0c4-49fb-bd3a-554e888889ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP1 [S1_TP1]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 508.0
+                            },
+                            "uuid": "dded9e46-f986-47db-851e-8c2caced5ae5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U2 [S1_U2]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 50.8
+                            },
+                            "uuid": "47032b6a-e8ef-4c32-aabf-c7866d65ddde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VBUS1 [S1_C_VBUS1]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 127.0
+                            },
+                            "uuid": "252ae4bd-73ad-4af5-b184-f83024d66bf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_U4 [S1_C_U4]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 203.2
+                            },
+                            "uuid": "6b6546cd-3295-44d4-9297-8437dabd4a7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VDD2 [S1_C_VDD2]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 279.4
+                            },
+                            "uuid": "0167e233-019c-40ed-9d1e-4b6d87072c48"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCOM [S1_C_VCOM]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 355.6
+                            },
+                            "uuid": "20095dd2-5b8a-46c9-85a2-45c504e1e0dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_HPF_GND [S1_R_HPF_GND]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 431.8
+                            },
+                            "uuid": "3105cba8-3346-4196-822b-af92fa7387de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP2 [S1_TP2]",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 508.0
+                            },
+                            "uuid": "209e6bf9-61a1-45cc-9733-832075f75f03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo Y1 [S1_Y1]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 50.8
+                            },
+                            "uuid": "f89a4289-49bf-4da0-ac68-8e724242612b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VBUS2 [S1_C_VBUS2]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 127.0
+                            },
+                            "uuid": "896c46b5-a7e2-432c-88a2-8a33c4a87e30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U5 [S1_U5]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 203.2
+                            },
+                            "uuid": "37b4222a-c369-4df1-8e48-ecf63eb966a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_NRST [S1_R_NRST]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 279.4
+                            },
+                            "uuid": "93d78f3a-f8b0-41db-8d8b-662b066a7456"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U8 [S1_U8]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 355.6
+                            },
+                            "uuid": "218b36d2-d95b-4f34-b670-d5c50c580b75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_AA1 [S1_R_AA1]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 431.8
+                            },
+                            "uuid": "8ffa89fe-0201-4c7f-8ef3-2ae21c5cca29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP3 [S1_TP3]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 508.0
+                            },
+                            "uuid": "9a57cf69-64f9-4556-8d93-cea961b96b84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_Y1A [S1_C_Y1A]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 50.8
+                            },
+                            "uuid": "6957b39f-cfaf-4e99-bedf-8cb21f7729cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo FB_ANA [S1_FB_ANA]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 127.0
+                            },
+                            "uuid": "e17ba92b-f718-4a31-9a27-70ef82c5ef1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_U5 [S1_C_U5]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 203.2
+                            },
+                            "uuid": "cbcfc0f7-a82c-4f81-b4b7-ef01e166708d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_NRST [S1_C_NRST]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 279.4
+                            },
+                            "uuid": "4bd942ef-1c45-4bd3-a240-37148e27f183"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U9 [S1_U9]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 355.6
+                            },
+                            "uuid": "c00564ba-dd35-4f08-9ac2-855f5d45ae74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_AA2 [S1_R_AA2]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 431.8
+                            },
+                            "uuid": "83d39aa7-fc73-4dcb-89b0-88aaa1c0b2de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP4 [S1_TP4]",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 508.0
+                            },
+                            "uuid": "a800d516-8037-4311-9949-d8da7ac93d7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_Y1B [S1_C_Y1B]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 50.8
+                            },
+                            "uuid": "e7c9d339-81fe-4bf6-9323-db9d1df35689"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_ANA1 [S1_C_ANA1]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 127.0
+                            },
+                            "uuid": "0270a2d6-7e5d-4684-9522-4dc9721b1602"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U3 [S1_U3]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 203.2
+                            },
+                            "uuid": "5c4432a4-6009-458b-ad21-3602f37cc4ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BOOT0 [S1_R_BOOT0]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 279.4
+                            },
+                            "uuid": "43f85473-b843-4940-850b-2802164369cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo U7 [S1_U7]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 355.6
+                            },
+                            "uuid": "d67751b2-c82d-4b7b-9cf0-5a991e412dd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_AA_FB [S1_C_AA_FB]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 431.8
+                            },
+                            "uuid": "d7997669-3e64-445e-bbb3-ab8f813ecaff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP5 [S1_TP5]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 508.0
+                            },
+                            "uuid": "8cee066b-286d-4f3c-866c-409766e85b8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BIAS [S1_R_BIAS]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 50.8
+                            },
+                            "uuid": "2032c342-45dd-4d27-a063-334512ed0da7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC1 [S1_R_CC1]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 127.0
+                            },
+                            "uuid": "2dab2ba1-ed4e-4a42-9a4d-faadcdd78900"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCAP1 [S1_C_VCAP1]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 203.2
+                            },
+                            "uuid": "9e69ea25-bdcc-4d57-9348-27a6ab4dc476"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_SWD [S1_J_SWD]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 279.4
+                            },
+                            "uuid": "0435b3af-431f-411e-a9cf-1fa6763764ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_HPF1 [S1_C_HPF1]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 355.6
+                            },
+                            "uuid": "8780d881-6aaf-4ee3-ab54-9e3c497b6e83"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_AA_GND [S1_C_AA_GND]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 431.8
+                            },
+                            "uuid": "9d14d4fa-b757-4f7b-9965-fa3697b67a3c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo TP6 [S1_TP6]",
+                            "pos": {
+                                "x": 627.38,
+                                "y": 508.0
+                            },
+                            "uuid": "5bb2a297-7cfc-4a89-9bca-bd97af43270b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo J2 [S1_J2]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 50.8
+                            },
+                            "uuid": "c2dab033-b5cd-4cbf-a232-bd6238b37853"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC2 [S1_R_CC2]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 127.0
+                            },
+                            "uuid": "e2958e64-f289-4280-8773-f954b7f787b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCAP2 [S1_C_VCAP2]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 203.2
+                            },
+                            "uuid": "0bfbda89-63bf-403f-9de7-3b3249654c89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo Y2 [S1_Y2]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 279.4
+                            },
+                            "uuid": "1b9e13d6-029e-41aa-874f-eb14386ddb4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_HPF2 [S1_C_HPF2]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 355.6
+                            },
+                            "uuid": "9e7d08cd-bc80-4b4a-b629-8c027ebf4ca0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC_S1'",
+                    "items": [
+                        {
+                            "description": "Simbolo J3 [S1_J3]",
+                            "pos": {
+                                "x": 741.68,
+                                "y": 431.8
+                            },
+                            "uuid": "6fe86c73-edc6-4bfe-a04c-3eef81178daf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "IU-MIC_ORIGIN_Main.kicad_sch"
+}

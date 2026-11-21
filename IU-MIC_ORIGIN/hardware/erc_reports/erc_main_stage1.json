@@ -1,0 +1,742 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T14:12:39",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/f06ef671-b49d-4826-9b9d-eee9ddf6f14c",
+            "violations": [
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Connector_USB'",
+                    "items": [
+                        {
+                            "description": "Simbolo J2 [USB_C_PWR_DATA]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 60.96
+                            },
+                            "uuid": "eae92178-b060-4d48-aba8-9ee3495304dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo J2 [USB_C_PWR_DATA]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 60.96
+                            },
+                            "uuid": "eae92178-b060-4d48-aba8-9ee3495304dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Connector_JST'",
+                    "items": [
+                        {
+                            "description": "Simbolo J3 [JST_SH_4P]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 142.24
+                            },
+                            "uuid": "ca5292ab-dbc8-4455-9d3f-efb0efb6d7b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo J3 [JST_SH_4P]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 142.24
+                            },
+                            "uuid": "ca5292ab-dbc8-4455-9d3f-efb0efb6d7b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR20 [GND]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 146.05
+                            },
+                            "uuid": "cccb5116-0320-4fa5-a364-990556783022"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR10 [GND]",
+                            "pos": {
+                                "x": 60.96,
+                                "y": 66.04
+                            },
+                            "uuid": "27769dc7-5bf8-443b-a3e7-bd6bfe261c08"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #FLG10 [PWR_FLAG]",
+                            "pos": {
+                                "x": 60.96,
+                                "y": 66.04
+                            },
+                            "uuid": "40d93180-aa03-43b6-a32f-1ac75a3cdab7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC1 [R]",
+                            "pos": {
+                                "x": 76.2,
+                                "y": 63.5
+                            },
+                            "uuid": "0e42c49d-72a5-4a27-982d-dd08612db58d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Device'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC1 [R]",
+                            "pos": {
+                                "x": 76.2,
+                                "y": 63.5
+                            },
+                            "uuid": "0e42c49d-72a5-4a27-982d-dd08612db58d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR11 [GND]",
+                            "pos": {
+                                "x": 76.2,
+                                "y": 67.31
+                            },
+                            "uuid": "782647ca-f50d-477e-94be-595d441d15d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC2 [R]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 66.04
+                            },
+                            "uuid": "0da1fc34-a73a-4455-9735-828095b4b48c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Device'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC2 [R]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 66.04
+                            },
+                            "uuid": "0da1fc34-a73a-4455-9735-828095b4b48c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR12 [GND]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 69.85
+                            },
+                            "uuid": "32e473fc-4461-48a0-babf-0059c02e8a91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_SO'",
+                    "items": [
+                        {
+                            "description": "Simbolo U7 [OPA1656_DUAL]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 142.24
+                            },
+                            "uuid": "f598b9ef-306d-48b6-8fb8-d61d0011b295"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U7 [OPA1656_DUAL]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 142.24
+                            },
+                            "uuid": "f598b9ef-306d-48b6-8fb8-d61d0011b295"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR21 [GND]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 152.4
+                            },
+                            "uuid": "999f47e2-0992-41c6-aa2b-db25c045d4a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo U4 [LP5907_LDO]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 55.88
+                            },
+                            "uuid": "7a6ad1ff-bae7-4c8e-b7d7-2950c3c80dec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U4 [LP5907_LDO]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 55.88
+                            },
+                            "uuid": "7a6ad1ff-bae7-4c8e-b7d7-2950c3c80dec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR13 [GND]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 63.5
+                            },
+                            "uuid": "587b6827-f022-47bd-8d4b-83b38f22156c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR22 [GND]",
+                            "pos": {
+                                "x": 142.24,
+                                "y": 147.32
+                            },
+                            "uuid": "875ff6dd-4e19-4346-a240-57c3ac553715"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_SO'",
+                    "items": [
+                        {
+                            "description": "Simbolo U9 [TMUX1104]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 142.24
+                            },
+                            "uuid": "821c3f6b-1964-4ae4-8ae0-5562468ec6d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U9 [TMUX1104]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 142.24
+                            },
+                            "uuid": "821c3f6b-1964-4ae4-8ae0-5562468ec6d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR23 [GND]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 152.4
+                            },
+                            "uuid": "53e68317-9a9e-4f11-a013-90e3a45a0506"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo U5 [LP5907_LDO]",
+                            "pos": {
+                                "x": 165.1,
+                                "y": 55.88
+                            },
+                            "uuid": "fb97dc9a-6711-43cb-92a6-59899acb410c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U5 [LP5907_LDO]",
+                            "pos": {
+                                "x": 165.1,
+                                "y": 55.88
+                            },
+                            "uuid": "fb97dc9a-6711-43cb-92a6-59899acb410c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR14 [GND]",
+                            "pos": {
+                                "x": 165.1,
+                                "y": 63.5
+                            },
+                            "uuid": "a71fa80a-005b-4b23-aead-14e1b00cbd82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_SO'",
+                    "items": [
+                        {
+                            "description": "Simbolo U8 [OPA1656_DUAL]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 142.24
+                            },
+                            "uuid": "a988243c-c1cb-4ca2-b62c-6eed2b0fe07f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U8 [OPA1656_DUAL]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 142.24
+                            },
+                            "uuid": "a988243c-c1cb-4ca2-b62c-6eed2b0fe07f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR24 [GND]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 152.4
+                            },
+                            "uuid": "a0802732-9753-4211-9a28-f4b270da423a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_DFN_QFN'",
+                    "items": [
+                        {
+                            "description": "Simbolo U6 [AK5572EN_S1]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 142.24
+                            },
+                            "uuid": "0ccbe2f7-cf76-4e0c-aff5-519ca00a2e28"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U6 [AK5572EN_S1]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 142.24
+                            },
+                            "uuid": "0ccbe2f7-cf76-4e0c-aff5-519ca00a2e28"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR25 [GND]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 157.48
+                            },
+                            "uuid": "1c39c4eb-b6c4-4920-97f4-9d40d23574a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_LPF_PD [R]",
+                            "pos": {
+                                "x": 325.12,
+                                "y": 157.48
+                            },
+                            "uuid": "f0343467-973a-46bb-b33e-53f09be965e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Device'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_LPF_PD [R]",
+                            "pos": {
+                                "x": 325.12,
+                                "y": 157.48
+                            },
+                            "uuid": "f0343467-973a-46bb-b33e-53f09be965e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR34 [GND]",
+                            "pos": {
+                                "x": 325.12,
+                                "y": 161.29
+                            },
+                            "uuid": "5cf975ba-e26d-4390-b735-87bbdd825d60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_QFP'",
+                    "items": [
+                        {
+                            "description": "Simbolo U3 [STM32H743VIT6_S1]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 142.24
+                            },
+                            "uuid": "3d90e387-ad18-4858-adb6-87fc34d13a10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U3 [STM32H743VIT6_S1]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 142.24
+                            },
+                            "uuid": "3d90e387-ad18-4858-adb6-87fc34d13a10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR30 [GND]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 165.1
+                            },
+                            "uuid": "0910a414-f313-495b-83a8-5ad6bda2a1f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Package_DFN_QFN'",
+                    "items": [
+                        {
+                            "description": "Simbolo U2 [LAN8742A_S1]",
+                            "pos": {
+                                "x": 431.8,
+                                "y": 142.24
+                            },
+                            "uuid": "4f67dc1c-f033-4041-8efc-d022c475ecc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo U2 [LAN8742A_S1]",
+                            "pos": {
+                                "x": 431.8,
+                                "y": 142.24
+                            },
+                            "uuid": "4f67dc1c-f033-4041-8efc-d022c475ecc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR32 [GND]",
+                            "pos": {
+                                "x": 431.8,
+                                "y": 157.48
+                            },
+                            "uuid": "e2e0d761-273e-49c7-b420-9d558dae6eeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BIAS [R]",
+                            "pos": {
+                                "x": 454.66,
+                                "y": 157.48
+                            },
+                            "uuid": "68725a19-8886-465c-b497-53d9d4752b89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Device'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BIAS [R]",
+                            "pos": {
+                                "x": 454.66,
+                                "y": 157.48
+                            },
+                            "uuid": "68725a19-8886-465c-b497-53d9d4752b89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR31 [GND]",
+                            "pos": {
+                                "x": 454.66,
+                                "y": 161.29
+                            },
+                            "uuid": "b6c3325c-e063-4186-9ab4-ce7face1986b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Connector_RJ'",
+                    "items": [
+                        {
+                            "description": "Simbolo J1 [RJ45_MAGJACK_S1]",
+                            "pos": {
+                                "x": 497.84,
+                                "y": 142.24
+                            },
+                            "uuid": "574fa53f-dfab-4008-906b-fbf572f344ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'IU_MIC'",
+                    "items": [
+                        {
+                            "description": "Simbolo J1 [RJ45_MAGJACK_S1]",
+                            "pos": {
+                                "x": 497.84,
+                                "y": 142.24
+                            },
+                            "uuid": "574fa53f-dfab-4008-906b-fbf572f344ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR33 [GND]",
+                            "pos": {
+                                "x": 497.84,
+                                "y": 152.4
+                            },
+                            "uuid": "b1d96cec-8064-46ed-beec-430f6f7aeed7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "IU-MIC_ORIGIN_Main.kicad_sch"
+}

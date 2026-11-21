@@ -1,0 +1,74 @@
+{
+  "project": "IU-MIC_ORIGIN",
+  "units": "mm",
+  "tolerance_fdm": 0.25,
+  "tolerance_sla": 0.15,
+  "finish": {
+    "body_color_name": "Grigio Antracite",
+    "body_hex": "#2c3038",
+    "nose_hex": "#333842",
+    "cap_hex": "#23272e",
+    "serigraphy_hex": "#e2e8f0"
+  },
+  "main_pcb": {
+    "width": 32.0,
+    "length": 98.0,
+    "thickness": 1.6,
+    "layers": 4,
+    "xlr_3m": {
+      "diameter": 19.0,
+      "depth": 22.0,
+      "y_offset_in_cap": 8.0
+    },
+    "rj45_magjack": {
+      "width": 16.0,
+      "height": 13.6,
+      "depth": 21.5,
+      "y_offset_in_cap": -9.5
+    },
+    "usb_c": {
+      "width": 9.2,
+      "height": 3.4,
+      "depth": 7.5,
+      "y_from_rear": 34.0,
+      "side": "+X"
+    },
+    "switch_hpf": {
+      "width": 7.0,
+      "height": 3.6,
+      "y_from_rear": 54.0,
+      "side": "+X",
+      "label": "HPF 20Hz"
+    },
+    "switch_lpf": {
+      "width": 7.0,
+      "height": 3.6,
+      "y_from_rear": 68.0,
+      "side": "+X",
+      "label": "LPF 20kHz"
+    },
+    "status_led": {
+      "diameter": 2.2,
+      "y_from_rear": 82.0,
+      "side": "+X"
+    }
+  },
+  "mems_tip_pcb": {
+    "diameter": 8.0,
+    "thickness": 1.6,
+    "layers": 2,
+    "mems_capsule": "Infineon IM73A135V01",
+    "acoustic_port_diameter": 1.0
+  },
+  "enclosure": {
+    "body_outer_diameter": 46.0,
+    "wall_thickness": 2.6,
+    "body_length": 108.0,
+    "cone_length": 26.0,
+    "tip_outer_diameter": 11.2,
+    "tip_length": 52.0,
+    "rear_cap_depth": 12.0,
+    "tripod_boss_y_from_rear": 52.0,
+    "tripod_insert_bore_diameter": 8.0
+  }
+}

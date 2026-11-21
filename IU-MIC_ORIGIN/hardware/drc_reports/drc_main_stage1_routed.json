@@ -1,0 +1,336 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T17:51:56",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "IU-MIC_ORIGIN_Main.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di J_SWD su F.Silkscreen",
+                    "pos": {
+                        "x": 127.04,
+                        "y": 115.85
+                    },
+                    "uuid": "4b4896fe-efba-44d5-a878-dbf9f5a01a94"
+                },
+                {
+                    "description": "Campo riferimento di TP1",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 94.552
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_AA_FB",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 137.57
+                    },
+                    "uuid": "463c2023-c232-4011-a028-ebf88cce146a"
+                },
+                {
+                    "description": "Campo riferimento di R_AA1",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 137.57
+                    },
+                    "uuid": "c1000331-9818-4587-af2f-07a71b84f9a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_HPF2",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 140.82
+                    },
+                    "uuid": "9e2b7895-2a5e-4b61-97c2-341ac8b2a952"
+                },
+                {
+                    "description": "Campo riferimento di R_HPF_GND",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 140.57
+                    },
+                    "uuid": "bc754ae5-d192-45c4-a788-d96b6fe31c4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_HPF1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 137.32
+                    },
+                    "uuid": "3ba94768-22e8-44b7-8cb6-d195c95b92c7"
+                },
+                {
+                    "description": "Campo riferimento di R_HPF_FB",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 137.57
+                    },
+                    "uuid": "e1da0bdc-bcb2-4361-a593-705b5c93d626"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_AA2",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 140.57
+                    },
+                    "uuid": "128a2e1a-4302-4dc8-bc20-bc61c477bca5"
+                },
+                {
+                    "description": "Campo riferimento di C_AA_GND",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 140.57
+                    },
+                    "uuid": "820950a6-ade9-4925-83a7-71aab247c85b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_CC2",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 84.63
+                    },
+                    "uuid": "595cb08a-c7d2-441c-98c2-dbbc34ecab13"
+                },
+                {
+                    "description": "Campo riferimento di J2",
+                    "pos": {
+                        "x": 121.955,
+                        "y": 84.0
+                    },
+                    "uuid": "a144ce76-cc23-44fb-8108-bf18e64a4c3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_VBUS1",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 90.52
+                    },
+                    "uuid": "b2dc50d7-d4b2-4f8e-9ef6-55bcbc8a8fab"
+                },
+                {
+                    "description": "Campo riferimento di C_VBUS2",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 91.04
+                    },
+                    "uuid": "f83532c3-1fc5-43b1-a019-abe5ad444c43"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_Y1B",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 84.84
+                    },
+                    "uuid": "4d2f7efc-c868-4d57-a358-bf7da1cb4eda"
+                },
+                {
+                    "description": "Segmento di Y1 su F.Silkscreen",
+                    "pos": {
+                        "x": 102.44,
+                        "y": 84.21
+                    },
+                    "uuid": "8a83321a-c166-42aa-84b6-d777158329ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_U4",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 91.84
+                    },
+                    "uuid": "2c0b4448-ec13-411d-89ce-491f81271394"
+                },
+                {
+                    "description": "Segmento di U4 su F.Silkscreen",
+                    "pos": {
+                        "x": 105.41,
+                        "y": 91.36
+                    },
+                    "uuid": "87ee1c62-c186-49a9-94e4-0174f19e86ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di U5 su F.Silkscreen",
+                    "pos": {
+                        "x": 104.91,
+                        "y": 98.06
+                    },
+                    "uuid": "5a698dee-e4b5-4684-b4ad-281d102ff37a"
+                },
+                {
+                    "description": "Campo riferimento di C_U5",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 98.64
+                    },
+                    "uuid": "76f0aef7-4bd8-4af0-bc86-5e26731c70fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_NRST",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 108.04
+                    },
+                    "uuid": "17d8b7cb-d416-44eb-8b2f-c2f78f37203e"
+                },
+                {
+                    "description": "Piazzola 21 [<no net>] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 107.5
+                    },
+                    "uuid": "63f70438-90ac-457e-a032-899cb9f53e43"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_NRST",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 105.33
+                    },
+                    "uuid": "a233d140-d3ea-459e-b9e0-6e894f2d70be"
+                },
+                {
+                    "description": "Piazzola 16 [ETH_MDC] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 105.0
+                    },
+                    "uuid": "bca27aa6-d542-4a57-88c5-5e1bdcd6639d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_VBUS2",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 91.04
+                    },
+                    "uuid": "f83532c3-1fc5-43b1-a019-abe5ad444c43"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS1 su F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 92.2
+                    },
+                    "uuid": "c7a6f8ca-6ca5-446b-bc79-ec5c43c84d11"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

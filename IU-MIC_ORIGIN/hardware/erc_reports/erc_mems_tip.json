@@ -1,0 +1,187 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T14:12:39",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5113e4a9-7caa-4504-a80f-8984d09feec0",
+            "violations": [
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #FLG01 [PWR_FLAG]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 93.98
+                            },
+                            "uuid": "582a5cf3-4d47-45a2-a215-0bdf6000a908"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_M1 [C]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 101.6
+                            },
+                            "uuid": "b936c143-27dc-4342-8be5-6eb03a882f4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Device'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_M1 [C]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 101.6
+                            },
+                            "uuid": "b936c143-27dc-4342-8be5-6eb03a882f4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #FLG02 [PWR_FLAG]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 114.3
+                            },
+                            "uuid": "38246f34-e38a-41c7-afd0-810009da7c04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR02 [GND]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 114.3
+                            },
+                            "uuid": "580eb3c7-b9e8-4019-8bfc-b0792e3dfd4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Sensor_Audio'",
+                    "items": [
+                        {
+                            "description": "Simbolo MK1 [IM73A135V01]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 101.6
+                            },
+                            "uuid": "665ca3f8-566a-46cc-87d5-1c4be4f89552"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Sensor_Audio'",
+                    "items": [
+                        {
+                            "description": "Simbolo MK1 [IM73A135V01]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 101.6
+                            },
+                            "uuid": "665ca3f8-566a-46cc-87d5-1c4be4f89552"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'power'",
+                    "items": [
+                        {
+                            "description": "Simbolo #PWR01 [GND]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 114.3
+                            },
+                            "uuid": "5043b635-9100-4e5c-bf96-04f472f29b24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria impronte 'Connector_PinHeader_1.27mm'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_TIP1 [Conn_01x04]",
+                            "pos": {
+                                "x": 142.24,
+                                "y": 101.6
+                            },
+                            "uuid": "bb2bccfe-eef5-403e-a7b6-0640823d6d3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'Connector_Generic'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_TIP1 [Conn_01x04]",
+                            "pos": {
+                                "x": 142.24,
+                                "y": 101.6
+                            },
+                            "uuid": "bb2bccfe-eef5-403e-a7b6-0640823d6d3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "IU-MIC_ORIGIN_MEMS_Tip.kicad_sch"
+}

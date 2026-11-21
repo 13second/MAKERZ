@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420">
+  <rect width="520" height="420" fill="#0b1020"/>
+  <text x="260" y="34" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace,monospace" font-size="16" font-weight="bold">IU-MIC_ORIGIN MEMS TIP PCB (Ø 8.0 mm · 2-Layer)</text>
+  <text x="260" y="54" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace,monospace" font-size="11">Infineon IM73A135V01 + Guard Ring GND + Disaccoppiamento C0G</text>
+  <circle cx="260" cy="230" r="140" fill="#064e3b" stroke="#10b981" stroke-width="3"/>
+  <circle cx="260" cy="230" r="126" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- MEMS Footprint 4x3 mm scaled 35 px/mm -->
+  <rect x="190" y="178" width="140" height="104" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="260" cy="230" r="17" fill="#0b1020" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="260" y="198" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace,monospace" font-size="12" font-weight="bold">MK1: IM73A135V01</text>
+  <text x="260" y="270" text-anchor="middle" fill="#7dd3fc" font-family="ui-monospace,monospace" font-size="10">Porta Acustica Ø 1.0 mm</text>
+  <!-- Decoupling cap -->
+  <rect x="235" y="305" width="50" height="24" rx="3" fill="#334155" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="260" y="321" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace,monospace" font-size="10">C_M1</text>
+</svg>

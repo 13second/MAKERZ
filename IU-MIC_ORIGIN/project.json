@@ -1,0 +1,49 @@
+{
+  "id": "iu-mic-origin",
+  "name": "IU-MIC_ORIGIN",
+  "subtitle": "Microfono Digitale Ultrasonico AoIP Stadio 1 (20 Hz – 80 kHz · 384 kHz / 24-bit · USB-C + Ethernet)",
+  "version": "1.2.0-S1",
+  "status": "Stadio 1 — T1..T4 PASS · Tip PCB 0 DRC",
+  "created_at": "2026-11-19T19:30:00+01:00",
+  "specs": {
+    "bandwidth": "20 Hz – 80 kHz (D1 confermata, tolleranza da misurare su prototipo; infrasuoni rimossi)",
+    "sample_rate": "384 kHz / 24-bit (D2) — Single Gain 1.25x + AK5572EN 2-to-1 Mono 124 dB DR (D4)",
+    "polar_pattern": "Omnidirezionale (Trasduttore a pressione)",
+    "capsule": "Infineon IM73A135V01 (PG-LLGA-5-2 Bottom-Port @ +2.8V_MEMS, 73 dB(A) SNR, 135 dB AOP)",
+    "filters": "Butterworth Q=0.707 simulati ngspice (<0.035 dB): HPF 20 Hz + LPF 20 kHz (bypass TMUX1104) + AA 140 kHz",
+    "outputs": "Stadio 1: Ethernet 100M (AES67 48k/24b + RTP L24 192/384k) | Stadio 2: PoE 802.3af + XLR-3M THAT1646",
+    "power": "Stadio 1: USB-C 5V -> LP5907-3.3 (+3V3_DIG) & LP5907-2.8 (+2V8_MEMS)",
+    "finish": "Grigio Antracite Satinato (#2C3038) — Corpo Ø 46.0 mm + Puntale Ø 11.2 mm (allineato a dimensions.json)",
+    "form_factor": "Pencil / Measurement Mic (Ø 46.0 mm corpo scolpito + Ø 11.2 mm puntale, pareti > 1.2 mm JLCPCB)"
+  },
+  "pricing": {
+    "currency": "EUR",
+    "pcb_fab_eur": 18.00,
+    "pcb_fab_note": "Stampa JLCPCB: Main 4-Layer (5 pz ~€6,50) + Tip 2-Layer (5 pz ~€2,00) + Spedizione EU (~€9,50)"
+  },
+  "assets": {
+    "schematic_svg": "exports/renders/IU-MIC_ORIGIN_Main.svg",
+    "pcb_front_svg": "exports/renders/kicad_main_stage1_front.svg",
+    "pcb_back_svg": "exports/renders/kicad_main_stage1_back.svg",
+    "pcb_tip_svg": "exports/renders/kicad_mems_tip_front.svg",
+    "model_assembly_glb": "exports/3d/IU-MIC_ORIGIN_assembly.glb",
+    "model_assembly_step": "exports/3d/IU-MIC_ORIGIN_assembly.step",
+    "model_print_zip": "exports/3d/IU-MIC_ORIGIN_JLCPCB_3DPrint_STL.zip",
+    "model_parts": [
+      { "id": "body_main", "name": "Corpo Antracite (Ø 46.0 mm)", "stl": "exports/3d/IU-MIC_ORIGIN_body_main.stl", "step": "exports/3d/IU-MIC_ORIGIN_body_main.step", "glb": "exports/3d/IU-MIC_ORIGIN_body_main.glb", "color": "#2c3038", "metalness": 0.45, "roughness": 0.36 },
+      { "id": "nose_cone", "name": "Puntale Ultrasonico (Ø 11.2 mm)", "stl": "exports/3d/IU-MIC_ORIGIN_nose_cone.stl", "step": "exports/3d/IU-MIC_ORIGIN_nose_cone.step", "glb": "exports/3d/IU-MIC_ORIGIN_nose_cone.glb", "color": "#343a44", "metalness": 0.50, "roughness": 0.32 },
+      { "id": "rear_cap", "name": "Tappo Coda (Ø 46.0 mm)", "stl": "exports/3d/IU-MIC_ORIGIN_rear_cap.stl", "step": "exports/3d/IU-MIC_ORIGIN_rear_cap.step", "glb": "exports/3d/IU-MIC_ORIGIN_rear_cap.glb", "color": "#23272e", "metalness": 0.42, "roughness": 0.40 },
+      { "id": "serigraphy", "name": "Serigrafia (IU-MIC & Porte)", "stl": "exports/3d/IU-MIC_ORIGIN_serigraphy.stl", "glb": "exports/3d/IU-MIC_ORIGIN_serigraphy.glb", "color": "#e2e8f0", "metalness": 0.15, "roughness": 0.25 },
+      { "id": "xlr_hardware", "name": "Connettore XLR-3M (Stadio 2)", "stl": "exports/3d/IU-MIC_ORIGIN_xlr_hardware.stl", "glb": "exports/3d/IU-MIC_ORIGIN_xlr_hardware.glb", "color": "#d4af37", "metalness": 0.85, "roughness": 0.22 },
+      { "id": "main_pcb", "name": "Main PCB 4-Layer (32×98 mm)", "stl": "exports/3d/IU-MIC_ORIGIN_main_pcb.stl", "glb": "exports/3d/IU-MIC_ORIGIN_main_pcb.glb", "color": "#0f766e", "metalness": 0.20, "roughness": 0.45 },
+      { "id": "mems_tip_pcb", "name": "MEMS Tip PCB (Ø 8.0 mm)", "stl": "exports/3d/IU-MIC_ORIGIN_mems_tip_pcb.stl", "glb": "exports/3d/IU-MIC_ORIGIN_mems_tip_pcb.glb", "color": "#14b8a6", "metalness": 0.20, "roughness": 0.45 }
+    ],
+    "bom_csv": "hardware/bom_lcsc.csv",
+    "bom_jlcpcb_smt_csv": "hardware/bom_jlcpcb_smt.csv",
+    "cpl_csv": "hardware/cpl_jlcpcb.csv",
+    "gerber_main_zip": "exports/gerbers/IU-MIC_ORIGIN_Main_JLCPCB_Gerbers.zip",
+    "gerber_tip_zip": "exports/gerbers/IU-MIC_ORIGIN_MEMS_Tip_JLCPCB_Gerbers.zip",
+    "kicad_main": "hardware/main_pcb/IU-MIC_ORIGIN_Main.kicad_pcb",
+    "kicad_tip": "hardware/mems_tip_pcb/IU-MIC_ORIGIN_MEMS_Tip.kicad_pcb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "projects": {
+    "iu-mic-origin": {
+      "openCount": 18,
+      "lastOpened": "2026-11-20T22:17:53.619Z",
+      "pinned": false,
+      "notes": ""
+    },
+    "spirit-ip-ldc": {
+      "openCount": 3,
+      "lastOpened": "2026-11-21T09:12:29.796Z",
+      "pinned": false,
+      "notes": ""
+    }
+  },
+  "history": [
+    {
+      "id": "spirit-ip-ldc",
+      "openedAt": "2026-11-21T09:12:29.796Z"
+    },
+    {
+      "id": "iu-mic-origin",
+      "openedAt": "2026-11-20T22:17:53.619Z"
+    }
+  ]
+}

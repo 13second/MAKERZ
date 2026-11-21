@@ -1,0 +1,28 @@
+# macOS metadata & AppleDouble resource forks (critical on exFAT external drives)
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# KiCad temporary lock / backup / cache files
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+~*.lck
+fp-info-cache
+
+# Temporary logs
+logs/*.log
+*.tmp

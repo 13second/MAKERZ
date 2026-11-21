@@ -1,0 +1,585 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T17:21:58",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "IU-MIC_ORIGIN_MEMS_Tip.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "80ad6476-141c-47c3-8c01-8672f91546c4"
+                },
+                {
+                    "description": "Campo riferimento di C_M1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 96.34
+                    },
+                    "uuid": "e63a2d34-e5cf-4240-9ca6-57d5fff3e727"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "80ad6476-141c-47c3-8c01-8672f91546c4"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "80ad6476-141c-47c3-8c01-8672f91546c4"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "80ad6476-141c-47c3-8c01-8672f91546c4"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di MK1",
+                    "pos": {
+                        "x": 99.32,
+                        "y": 97.4
+                    },
+                    "uuid": "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed"
+                },
+                {
+                    "description": "Campo riferimento di C_M1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 96.34
+                    },
+                    "uuid": "e63a2d34-e5cf-4240-9ca6-57d5fff3e727"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di C_M1 su F.Silkscreen",
+                    "pos": {
+                        "x": 98.892164,
+                        "y": 97.14
+                    },
+                    "uuid": "1346728a-944b-41bd-bdec-c8e3cf36fb0c"
+                },
+                {
+                    "description": "Campo riferimento di MK1",
+                    "pos": {
+                        "x": 99.32,
+                        "y": 97.4
+                    },
+                    "uuid": "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di C_M1 su F.Silkscreen",
+                    "pos": {
+                        "x": 98.892164,
+                        "y": 97.86
+                    },
+                    "uuid": "3be844a4-0fe8-4ec2-8be2-94679afdadaa"
+                },
+                {
+                    "description": "Campo riferimento di MK1",
+                    "pos": {
+                        "x": 99.32,
+                        "y": 97.4
+                    },
+                    "uuid": "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di MK1",
+                    "pos": {
+                        "x": 99.32,
+                        "y": 97.4
+                    },
+                    "uuid": "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed"
+                },
+                {
+                    "description": "Piazzola 1 [+2V8_MEMS] di C_M1 su F.Cu",
+                    "pos": {
+                        "x": 98.52,
+                        "y": 97.5
+                    },
+                    "uuid": "96855d3f-919e-494e-909d-1493e1636f0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di MK1",
+                    "pos": {
+                        "x": 99.32,
+                        "y": 97.4
+                    },
+                    "uuid": "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_M1 su F.Cu",
+                    "pos": {
+                        "x": 99.48,
+                        "y": 97.5
+                    },
+                    "uuid": "fbde72e6-86db-48a5-9ccc-641e12c38cc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Cerchio di TP_T4 su B.Silkscreen",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 101.65
+                    },
+                    "uuid": "232e49b3-175c-43f1-906b-a67d81adeac2"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Cerchio di TP_T4 su B.Silkscreen",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 101.65
+                    },
+                    "uuid": "232e49b3-175c-43f1-906b-a67d81adeac2"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                },
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP_T4 su B.Cu",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 101.65
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP_T4 su B.Cu",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 101.65
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                },
+                {
+                    "description": "Piazzola NPTH di MK1",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "6158f568-8f72-4f5a-9d92-1b6ac5610f2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                },
+                {
+                    "description": "Piazzola NPTH di MK1",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "6158f568-8f72-4f5a-9d92-1b6ac5610f2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo valore di TP_T4 (GND)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 103.2
+                    },
+                    "uuid": "a41410ba-6764-40d3-8271-3889cd1f68dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Testo impronta di TP_T4 (TP_T4)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.2
+                    },
+                    "uuid": "ecb9d95d-c3e5-4a80-b7be-d742b8cad331"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo valore di TP_T4 (GND)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 103.2
+                    },
+                    "uuid": "a41410ba-6764-40d3-8271-3889cd1f68dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Testo impronta di TP_T4 (TP_T4)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.2
+                    },
+                    "uuid": "ecb9d95d-c3e5-4a80-b7be-d742b8cad331"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo valore di TP_T4 (GND)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 103.2
+                    },
+                    "uuid": "a41410ba-6764-40d3-8271-3889cd1f68dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Testo impronta di TP_T4 (TP_T4)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.2
+                    },
+                    "uuid": "ecb9d95d-c3e5-4a80-b7be-d742b8cad331"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo riferimento di TP_T4",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.202
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Campo valore di TP_T4 (GND)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 103.2
+                    },
+                    "uuid": "a41410ba-6764-40d3-8271-3889cd1f68dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Testo impronta di TP_T4 (TP_T4)",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 100.2
+                    },
+                    "uuid": "ecb9d95d-c3e5-4a80-b7be-d742b8cad331"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

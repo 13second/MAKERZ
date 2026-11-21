@@ -1,0 +1,736 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T23:24:54",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ebc00999-0260-4fe8-a0ee-5d26d73ebfdc",
+            "violations": [
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J1 [J1_HR911105A]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 45.72
+                            },
+                            "uuid": "4bbbca1f-c29d-453d-bc0c-54aba88516da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_POE2 [R_POE2_10k_1_]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 116.84
+                            },
+                            "uuid": "ab4c0ce9-8e91-43de-ace7-454278be2b04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC2 [R_CC2_5_1k_1_]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 187.96
+                            },
+                            "uuid": "a678f71b-3e0b-451e-8c5f-e71e70f86e9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U4 [U4_LP5907MFX_3_3]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 259.08
+                            },
+                            "uuid": "ec07ab7c-4e8e-40af-9ce8-dd983f8d201d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_Y1B [C_Y1B_18pF_C0G]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 330.2
+                            },
+                            "uuid": "eb21d386-e89d-4a2a-995e-1c533caefece"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VDD1 [C_VDD1_100nF_X7R]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 401.32
+                            },
+                            "uuid": "2d6f31a5-c74e-47ef-8668-2e55507102ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_SWD [J_SWD_SWD_4P_DNP]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 472.44
+                            },
+                            "uuid": "6723b65b-9a00-422e-8fd4-40d9dc23fa1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo SW1 [SW1_SW_PATTERN]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 543.56
+                            },
+                            "uuid": "93e7785c-cc3c-4244-8fab-12446a3372e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo LED3 [LED3_WS2812B_2020_V6]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 614.68
+                            },
+                            "uuid": "9bfc6880-1ac5-4478-ad3d-b11364a9fa4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Sia +3V3_DIG che GND sono collegati agli stessi elementi; nella netlist verrà usata +3V3_DIG",
+                    "items": [
+                        {
+                            "description": "Etichetta \"+3V3_DIG\"",
+                            "pos": {
+                                "x": 60.96,
+                                "y": 259.08
+                            },
+                            "uuid": "6d05f9e7-c37c-4148-861d-63c834309b99"
+                        },
+                        {
+                            "description": "Etichetta \"GND\"",
+                            "pos": {
+                                "x": 60.96,
+                                "y": 45.72
+                            },
+                            "uuid": "8a54b6aa-af27-49e6-abd9-69e3967e1da0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Sia USB_DM che USB_DP sono collegati agli stessi elementi; nella netlist verrà usata USB_DM",
+                    "items": [
+                        {
+                            "description": "Etichetta \"USB_DM\"",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 45.72
+                            },
+                            "uuid": "832cbda7-1675-4147-a676-702e05bd79c8"
+                        },
+                        {
+                            "description": "Etichetta \"USB_DP\"",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 45.72
+                            },
+                            "uuid": "a8b3fdf2-2646-4cc2-a923-a5e6fc23986d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J2 [J2_USB_C_16P]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 45.72
+                            },
+                            "uuid": "0a7dc6b0-7e87-4b1d-bd81-5be9f0e66ba1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo D_OR1 [D_OR1_SS34]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 116.84
+                            },
+                            "uuid": "02d5ec61-d997-414e-8540-bc4ba9dc36e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VBUS1 [C_VBUS1_10uF_25V_X5R]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 187.96
+                            },
+                            "uuid": "42114d41-c933-405e-b9e9-84966a4d77a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_U4 [C_U4_1uF_X5R]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 259.08
+                            },
+                            "uuid": "27ffce7f-4075-41b4-a432-ee6a25fca0ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BIAS [R_BIAS_0402WGF1212TCE]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 330.2
+                            },
+                            "uuid": "5b50c3d1-a0fa-43e7-b6d8-b26ecd713bf8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VDD2 [C_VDD2_100nF_X7R]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 401.32
+                            },
+                            "uuid": "16266cc7-b8aa-4ad6-b0c7-6e038ad74f0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo Y2 [Y2_24_576MHz_3_3V_XO]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 472.44
+                            },
+                            "uuid": "c824ee19-5c1f-4274-836f-5819bf7a5bf1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo SW2 [SW2_SW_PAD]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 543.56
+                            },
+                            "uuid": "db4cf854-881b-4a7c-bb99-fddd4d02bd71"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo LED4 [LED4_WS2812B_2020_V6]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 614.68
+                            },
+                            "uuid": "e2d0778e-7a64-4759-a16f-3d327c1fd05a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Sia SAI1_FS che SAI1_SCK sono collegati agli stessi elementi; nella netlist verrà usata SAI1_FS",
+                    "items": [
+                        {
+                            "description": "Etichetta \"SAI1_FS\"",
+                            "pos": {
+                                "x": 233.68,
+                                "y": 312.42
+                            },
+                            "uuid": "58ff39ab-dd2f-40d0-9d94-3e12b1b18299"
+                        },
+                        {
+                            "description": "Etichetta \"SAI1_SCK\"",
+                            "pos": {
+                                "x": 233.68,
+                                "y": 309.88
+                            },
+                            "uuid": "846f92fe-21bb-483a-bfae-034412448114"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U1 [U1_TPS23753APWR]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 45.72
+                            },
+                            "uuid": "01a5c89f-c5cf-4911-bd46-484827c1fe16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo D_OR2 [D_OR2_SS34]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 116.84
+                            },
+                            "uuid": "0cf20363-826d-4000-8246-e7a990782feb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VBUS2 [C_VBUS2_100nF_X7R]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 187.96
+                            },
+                            "uuid": "f4fc6b12-db35-4036-ab0f-d4b26a56bf02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U2 [U2_LAN8742A_CZ]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 259.08
+                            },
+                            "uuid": "ce587068-8ff3-4493-a8fb-62e9142a05af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U3 [U3_STM32H743VIT6TR]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 330.2
+                            },
+                            "uuid": "309aedb5-3d9f-4b7a-aba0-79472f285a07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_NRST [R_NRST_10k_1_]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 401.32
+                            },
+                            "uuid": "e15ccf79-0541-4971-9e45-19b3dc14f4b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U6 [U6_AK5572EN]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 472.44
+                            },
+                            "uuid": "844a227e-8f22-46db-9ef2-1993921c6ae3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo SW3 [SW3_SW_HPF]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 543.56
+                            },
+                            "uuid": "f4943bb3-bfc6-4862-af54-2211be0db64f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CLS [R_CLS_24_9k_1_]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 45.72
+                            },
+                            "uuid": "291eabb1-b06d-44fd-8bd0-c0e7e5d2bf24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo D_TVS1 [D_TVS1_SMF5_0A]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 116.84
+                            },
+                            "uuid": "95ad8467-dafd-4f0a-9f9a-5e7ef7b53f8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo FB_ANA [FB_ANA_GZ1608D601TF]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 187.96
+                            },
+                            "uuid": "dd2da53e-157d-4234-a43a-bd9310d40aaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo Y1 [Y1_25_000MHz]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 259.08
+                            },
+                            "uuid": "6b2a71f5-c71f-429f-a567-7351a20c1a9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCAP1 [C_VCAP1_2_2uF_X5R]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 330.2
+                            },
+                            "uuid": "d0d866e0-7453-4978-b637-ec7c26f5ef35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_NRST [C_NRST_100nF_X7R]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 401.32
+                            },
+                            "uuid": "527b9bb8-4d6b-4aa9-b276-780ba3a4ca5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCOM [C_VCOM_10uF_10V_X5R]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 472.44
+                            },
+                            "uuid": "63e7eddc-c91e-4886-b0d9-cb08942373c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo LED1 [LED1_WS2812B_2020_V6]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 543.56
+                            },
+                            "uuid": "0e1fdd98-fa50-4d37-b5aa-8ffcbca00569"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_POE1 [R_POE1_10k_1_]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 45.72
+                            },
+                            "uuid": "a958403f-12fd-4158-9360-2fe030f3adf5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_CC1 [R_CC1_5_1k_1_]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 116.84
+                            },
+                            "uuid": "cc8b005a-c776-4ebc-8923-23993d524499"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_ANA1 [C_ANA1_10uF_25V_X5R]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 187.96
+                            },
+                            "uuid": "1f6cd486-3f84-48bb-bc38-eef312acd135"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_Y1A [C_Y1A_18pF_C0G]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 259.08
+                            },
+                            "uuid": "47bd34e5-5a6a-4347-8ca5-e82c92fe51cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_VCAP2 [C_VCAP2_2_2uF_X5R]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 330.2
+                            },
+                            "uuid": "2598e9b8-ddf7-48c0-a421-c417a8a012be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_BOOT0 [R_BOOT0_10k_1_]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 401.32
+                            },
+                            "uuid": "a462f84a-5f22-4478-8ac4-d54f96da79b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J3 [J3_HEADAMP_6P]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 472.44
+                            },
+                            "uuid": "f55a8f1d-e2d3-443f-a856-388edd26dd7b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo LED2 [LED2_WS2812B_2020_V6]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 543.56
+                            },
+                            "uuid": "b0b31bb0-c37c-4e7d-987b-c25d358e95d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "SPIRIT-IP_Main.kicad_sch"
+}

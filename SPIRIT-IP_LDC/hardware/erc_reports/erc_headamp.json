@@ -1,0 +1,278 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T23:24:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/660f26cb-91c6-44a1-9e78-c96e1a12bf2d",
+            "violations": [
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo SH1 [SH1_BMI_S_102_SHIELD]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 45.72
+                            },
+                            "uuid": "ce0e811d-9497-4799-9fd5-e40d13422f7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_G2 [R_G2_1G_5__0805]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 116.84
+                            },
+                            "uuid": "e4ce440d-24f9-4720-aa90-d59ba66db255"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_LINK [J_LINK_MAIN_LINK_6P]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 187.96
+                            },
+                            "uuid": "0d9d7487-6bf6-4aa9-b65b-12b60c40cabe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U_A1 [U_A1_OPA1656IDR]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 45.72
+                            },
+                            "uuid": "82b4de38-860b-4185-88e5-da0ecbc9d27a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_BIAS1 [C_BIAS1_100nF_100V_X7R]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 116.84
+                            },
+                            "uuid": "8f9372e6-a08c-45d0-b39f-a65aa6ff8162"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U_A2 [U_A2_TMUX1104DGSR]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 45.72
+                            },
+                            "uuid": "6cc5ba5d-f836-4790-bcd0-958d6a827ac0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_HPF [C_HPF_100nF_C0G]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 116.84
+                            },
+                            "uuid": "95f2d83b-595b-4b8e-ae73-e295f9d69932"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Sia GND che HPF_NODE sono collegati agli stessi elementi; nella netlist verrà usata GND",
+                    "items": [
+                        {
+                            "description": "Etichetta \"GND\"",
+                            "pos": {
+                                "x": 335.28,
+                                "y": 45.72
+                            },
+                            "uuid": "605a54e8-74a7-490f-a4c7-69cb6df257b5"
+                        },
+                        {
+                            "description": "Etichetta \"HPF_NODE\"",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 116.84
+                            },
+                            "uuid": "0f2c34c6-ac5b-4ae4-9b60-be898fd9c1d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"BIAS_SW\"",
+                            "pos": {
+                                "x": 335.28,
+                                "y": 43.18
+                            },
+                            "uuid": "951998f1-250a-41f9-b552-c32569fa26b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo U_BIAS [U_BIAS_MT3608]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 45.72
+                            },
+                            "uuid": "a1750bb6-4f48-4dc2-b35b-6de4b2703aa0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo C_ANA_H [C_ANA_H_10uF_25V_X5R]",
+                            "pos": {
+                                "x": 350.52,
+                                "y": 116.84
+                            },
+                            "uuid": "0279e55c-da44-401f-a5ab-ebc7e159c06b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Sia CAP_BACK che CAP_FRONT sono collegati agli stessi elementi; nella netlist verrà usata CAP_BACK",
+                    "items": [
+                        {
+                            "description": "Etichetta \"CAP_BACK\"",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 116.84
+                            },
+                            "uuid": "633141ff-ac8e-454f-ac8a-60d7f332de59"
+                        },
+                        {
+                            "description": "Etichetta \"CAP_FRONT\"",
+                            "pos": {
+                                "x": 436.88,
+                                "y": 45.72
+                            },
+                            "uuid": "7940a9cb-64dd-4aaf-8cd0-eb14108bc8e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo R_G1 [R_G1_1G_5__0805]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 45.72
+                            },
+                            "uuid": "ef2709f9-e1f1-47d1-89b9-1c5e1374f280"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "La configurazione corrente non include la libreria di simboli 'SPIRIT'",
+                    "items": [
+                        {
+                            "description": "Simbolo J_CAP [J_CAP_CAPSULE_34MM_3P]",
+                            "pos": {
+                                "x": 452.12,
+                                "y": 116.84
+                            },
+                            "uuid": "ad931150-5679-457e-bca3-80a6a4f31210"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Etichetta \"CAP_REAR\"",
+                            "pos": {
+                                "x": 467.36,
+                                "y": 116.84
+                            },
+                            "uuid": "8709502f-7ccc-4767-9634-6cef04463f1e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "SPIRIT-IP_Headamp.kicad_sch"
+}

@@ -1,0 +1,3626 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T17:51:13",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "IU-MIC_ORIGIN_Main.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 134.905
+                    },
+                    "uuid": "17269e48-f357-4321-9749-dc170dc63de9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di U5 su F.Cu",
+                    "pos": {
+                        "x": 102.8625,
+                        "y": 96.5
+                    },
+                    "uuid": "dfd5d48f-c537-408a-b650-3d155a27d5f6"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_U5 su F.Cu",
+                    "pos": {
+                        "x": 104.48,
+                        "y": 99.8
+                    },
+                    "uuid": "72e0a38d-aedb-44dc-b6d2-fff3c44cec50"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di U5 su F.Cu",
+                    "pos": {
+                        "x": 102.8625,
+                        "y": 96.5
+                    },
+                    "uuid": "dfd5d48f-c537-408a-b650-3d155a27d5f6"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_U4 su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 93.0
+                    },
+                    "uuid": "ce1faff3-eb63-4d0f-8b00-c6d4daddd6bd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 89.8
+                    },
+                    "uuid": "b572b9de-dfc0-446e-a751-986150806b12"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_Y1B su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 86.0
+                    },
+                    "uuid": "ac7d1212-19bc-41e5-a31a-511cf06b3bf8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_U5 su F.Cu",
+                    "pos": {
+                        "x": 104.48,
+                        "y": 99.8
+                    },
+                    "uuid": "72e0a38d-aedb-44dc-b6d2-fff3c44cec50"
+                },
+                {
+                    "description": "Piazzola 10 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 102.0
+                    },
+                    "uuid": "3d401155-88a0-4244-88c0-be34ff7d9957"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_Y1A su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 78.8
+                    },
+                    "uuid": "43a082bb-3cb9-4590-8685-ad67a571db99"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 81.65
+                    },
+                    "uuid": "e725665c-7eb5-4f19-bf4c-536c478bd4f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_Y1A su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 78.8
+                    },
+                    "uuid": "43a082bb-3cb9-4590-8685-ad67a571db99"
+                },
+                {
+                    "description": "Piazzola PTH  SH [GND] di J1",
+                    "pos": {
+                        "x": 103.815,
+                        "y": 65.69
+                    },
+                    "uuid": "201b1c0a-5dbe-41b2-ab9e-13e21e988740"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_U4 su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 93.0
+                    },
+                    "uuid": "ce1faff3-eb63-4d0f-8b00-c6d4daddd6bd"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 89.8
+                    },
+                    "uuid": "b572b9de-dfc0-446e-a751-986150806b12"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_U4 su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 93.0
+                    },
+                    "uuid": "ce1faff3-eb63-4d0f-8b00-c6d4daddd6bd"
+                },
+                {
+                    "description": "Piazzola 99 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 95.825
+                    },
+                    "uuid": "aac6d773-80b7-405f-adfe-1bb2d9c2fa79"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_NRST su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 109.2
+                    },
+                    "uuid": "b6fb7dc8-662b-42ab-a948-b88bb566181a"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di R_BOOT0 su F.Cu",
+                    "pos": {
+                        "x": 105.01,
+                        "y": 112.0
+                    },
+                    "uuid": "553c1fa7-c5fe-4e98-9cea-1210b5cff24b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di R_BOOT0 su F.Cu",
+                    "pos": {
+                        "x": 105.01,
+                        "y": 112.0
+                    },
+                    "uuid": "553c1fa7-c5fe-4e98-9cea-1210b5cff24b"
+                },
+                {
+                    "description": "Piazzola 27 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 111.175
+                    },
+                    "uuid": "3d83a2c3-d6ad-4e36-8950-72d0788a50cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 4 [GND] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 134.905
+                    },
+                    "uuid": "17269e48-f357-4321-9749-dc170dc63de9"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_AA_GND su F.Cu",
+                    "pos": {
+                        "x": 111.275,
+                        "y": 142.0
+                    },
+                    "uuid": "6d03b964-d3e0-4831-a010-684327d03838"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 83.35
+                    },
+                    "uuid": "d0922621-bc35-43cf-9ec6-de6a2498a2a3"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_Y1B su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 86.0
+                    },
+                    "uuid": "ac7d1212-19bc-41e5-a31a-511cf06b3bf8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 83.35
+                    },
+                    "uuid": "d0922621-bc35-43cf-9ec6-de6a2498a2a3"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 81.65
+                    },
+                    "uuid": "e725665c-7eb5-4f19-bf4c-536c478bd4f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VCOM su F.Cu",
+                    "pos": {
+                        "x": 105.775,
+                        "y": 123.0
+                    },
+                    "uuid": "d509c536-a17c-420b-8926-37e741802779"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VCOM su F.Cu",
+                    "pos": {
+                        "x": 105.775,
+                        "y": 123.0
+                    },
+                    "uuid": "d509c536-a17c-420b-8926-37e741802779"
+                },
+                {
+                    "description": "Piazzola 49 [GND] di U6 su F.Cu",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 123.0
+                    },
+                    "uuid": "bbbff532-b3b7-401f-998e-244b9ecf4aee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 10 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 102.0
+                    },
+                    "uuid": "3d401155-88a0-4244-88c0-be34ff7d9957"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_NRST su F.Cu",
+                    "pos": {
+                        "x": 104.98,
+                        "y": 109.2
+                    },
+                    "uuid": "b6fb7dc8-662b-42ab-a948-b88bb566181a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 99 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 95.825
+                    },
+                    "uuid": "aac6d773-80b7-405f-adfe-1bb2d9c2fa79"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VDD1 su F.Cu",
+                    "pos": {
+                        "x": 115.98,
+                        "y": 92.2
+                    },
+                    "uuid": "e60ce63d-120c-4a0e-9ec2-186ad4b72da1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_AA_GND su F.Cu",
+                    "pos": {
+                        "x": 111.275,
+                        "y": 142.0
+                    },
+                    "uuid": "6d03b964-d3e0-4831-a010-684327d03838"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di J3 su F.Cu",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 142.8
+                    },
+                    "uuid": "8c60da0b-e1d6-45cc-95d2-1b0bdf118abe"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 25 [GND] di U2 su F.Cu",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 82.5
+                    },
+                    "uuid": "5382fa50-6d5b-490d-b347-993586031464"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 83.35
+                    },
+                    "uuid": "d0922621-bc35-43cf-9ec6-de6a2498a2a3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di U9 su F.Cu",
+                    "pos": {
+                        "x": 113.9,
+                        "y": 132.5
+                    },
+                    "uuid": "a35d880a-747d-4df4-88ee-ae958ef04983"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 134.905
+                    },
+                    "uuid": "17269e48-f357-4321-9749-dc170dc63de9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di R_BIAS su F.Cu",
+                    "pos": {
+                        "x": 119.01,
+                        "y": 81.0
+                    },
+                    "uuid": "19cd180c-9e83-45ab-a78e-5130c34acc91"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di R_CC1 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 83.5
+                    },
+                    "uuid": "0c86e4ee-2e13-46e2-9d37-706e0ca3f621"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola PTH  SH [GND] di J1",
+                    "pos": {
+                        "x": 119.305,
+                        "y": 65.69
+                    },
+                    "uuid": "20f3ee30-c6a9-47a0-a426-b1fc61d0799e"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di R_BIAS su F.Cu",
+                    "pos": {
+                        "x": 119.01,
+                        "y": 81.0
+                    },
+                    "uuid": "19cd180c-9e83-45ab-a78e-5130c34acc91"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di D_TVS1 su F.Cu",
+                    "pos": {
+                        "x": 119.4,
+                        "y": 89.2
+                    },
+                    "uuid": "3d7b18f4-e84b-4f48-af68-926cbd54d118"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VDD1 su F.Cu",
+                    "pos": {
+                        "x": 115.98,
+                        "y": 92.2
+                    },
+                    "uuid": "e60ce63d-120c-4a0e-9ec2-186ad4b72da1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di D_TVS1 su F.Cu",
+                    "pos": {
+                        "x": 119.4,
+                        "y": 89.2
+                    },
+                    "uuid": "3d7b18f4-e84b-4f48-af68-926cbd54d118"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.98,
+                        "y": 92.2
+                    },
+                    "uuid": "d9c72e2a-bea2-4a8f-ad80-6c173fae55df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_ANA1 su F.Cu",
+                    "pos": {
+                        "x": 120.95,
+                        "y": 119.5
+                    },
+                    "uuid": "b7140028-c614-4742-aa0c-ef215cc21605"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 127.6,
+                        "y": 121.85
+                    },
+                    "uuid": "8cf02dd4-47fb-4130-a101-1230bcfa2277"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_ANA1 su F.Cu",
+                    "pos": {
+                        "x": 120.95,
+                        "y": 119.5
+                    },
+                    "uuid": "b7140028-c614-4742-aa0c-ef215cc21605"
+                },
+                {
+                    "description": "Piazzola 49 [GND] di U6 su F.Cu",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 123.0
+                    },
+                    "uuid": "bbbff532-b3b7-401f-998e-244b9ecf4aee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 49 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 111.175
+                    },
+                    "uuid": "0ccf4750-09b1-428b-b643-fd1be70835f7"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_ANA1 su F.Cu",
+                    "pos": {
+                        "x": 120.95,
+                        "y": 119.5
+                    },
+                    "uuid": "b7140028-c614-4742-aa0c-ef215cc21605"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di R_CC1 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 83.5
+                    },
+                    "uuid": "0c86e4ee-2e13-46e2-9d37-706e0ca3f621"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di R_CC2 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 85.8
+                    },
+                    "uuid": "09b1ea2c-bb17-4190-ae7b-95007e58beff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di R_CC1 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 83.5
+                    },
+                    "uuid": "0c86e4ee-2e13-46e2-9d37-706e0ca3f621"
+                },
+                {
+                    "description": "Piazzola B1 [GND] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 80.75
+                    },
+                    "uuid": "c9e8a0db-2a60-41d9-b783-6c4e64a8fb5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di R_CC2 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 85.8
+                    },
+                    "uuid": "09b1ea2c-bb17-4190-ae7b-95007e58beff"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di D_TVS1 su F.Cu",
+                    "pos": {
+                        "x": 119.4,
+                        "y": 89.2
+                    },
+                    "uuid": "3d7b18f4-e84b-4f48-af68-926cbd54d118"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 4 [GND] di U7 su F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 134.905
+                    },
+                    "uuid": "7ca29525-b6a3-4ff8-a77d-9707ccbb3a78"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di U9 su F.Cu",
+                    "pos": {
+                        "x": 113.9,
+                        "y": 132.5
+                    },
+                    "uuid": "a35d880a-747d-4df4-88ee-ae958ef04983"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 74 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 98.0
+                    },
+                    "uuid": "5844a031-9d0a-496e-954a-d6fcffb7f745"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VCAP1 su F.Cu",
+                    "pos": {
+                        "x": 127.975,
+                        "y": 100.0
+                    },
+                    "uuid": "6062b07e-3aa8-4f9e-aeeb-4a95b34d9fe6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 74 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 98.0
+                    },
+                    "uuid": "5844a031-9d0a-496e-954a-d6fcffb7f745"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.98,
+                        "y": 92.2
+                    },
+                    "uuid": "d9c72e2a-bea2-4a8f-ad80-6c173fae55df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A1 [GND] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 87.25
+                    },
+                    "uuid": "245fae56-8b58-4bd8-bbf1-36624dc3fa3e"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di R_CC2 su F.Cu",
+                    "pos": {
+                        "x": 121.01,
+                        "y": 85.8
+                    },
+                    "uuid": "09b1ea2c-bb17-4190-ae7b-95007e58beff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 127.6,
+                        "y": 121.85
+                    },
+                    "uuid": "8cf02dd4-47fb-4130-a101-1230bcfa2277"
+                },
+                {
+                    "description": "Piazzola 4 [GND] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 129.7,
+                        "y": 115.105
+                    },
+                    "uuid": "f88a2cf7-8d71-44ce-bb7e-fb93c1efb23b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VDD2 su F.Cu",
+                    "pos": {
+                        "x": 127.68,
+                        "y": 107.0
+                    },
+                    "uuid": "38f21015-6ce1-4631-bf18-fb5d405c550c"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VCAP2 su F.Cu",
+                    "pos": {
+                        "x": 127.975,
+                        "y": 103.5
+                    },
+                    "uuid": "d4cd64e3-d83f-4201-afd9-9e11e5bd4b0d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VDD2 su F.Cu",
+                    "pos": {
+                        "x": 127.68,
+                        "y": 107.0
+                    },
+                    "uuid": "38f21015-6ce1-4631-bf18-fb5d405c550c"
+                },
+                {
+                    "description": "Piazzola 49 [GND] di U3 su F.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 111.175
+                    },
+                    "uuid": "0ccf4750-09b1-428b-b643-fd1be70835f7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VBUS1 su F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 92.2
+                    },
+                    "uuid": "eb7df718-e012-4089-918e-190c66c7e3d5"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.98,
+                        "y": 92.2
+                    },
+                    "uuid": "d9c72e2a-bea2-4a8f-ad80-6c173fae55df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [GND] di C_VCAP2 su F.Cu",
+                    "pos": {
+                        "x": 127.975,
+                        "y": 103.5
+                    },
+                    "uuid": "d4cd64e3-d83f-4201-afd9-9e11e5bd4b0d"
+                },
+                {
+                    "description": "Piazzola 2 [GND] di C_VCAP1 su F.Cu",
+                    "pos": {
+                        "x": 127.975,
+                        "y": 100.0
+                    },
+                    "uuid": "6062b07e-3aa8-4f9e-aeeb-4a95b34d9fe6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di U5 su F.Cu",
+                    "pos": {
+                        "x": 102.8625,
+                        "y": 95.55
+                    },
+                    "uuid": "d78e4203-5c17-4105-8888-9e26943d5a7b"
+                },
+                {
+                    "description": "Piazzola 3 [+5V_USB] di U5 su F.Cu",
+                    "pos": {
+                        "x": 102.8625,
+                        "y": 97.45
+                    },
+                    "uuid": "a952c7b5-614b-4bfd-83ea-6a527281beff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di U5 su F.Cu",
+                    "pos": {
+                        "x": 102.8625,
+                        "y": 95.55
+                    },
+                    "uuid": "d78e4203-5c17-4105-8888-9e26943d5a7b"
+                },
+                {
+                    "description": "Piazzola 3 [+5V_USB] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 90.75
+                    },
+                    "uuid": "f79949c4-cca7-4d46-9fe5-6cdab647b7e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 88.85
+                    },
+                    "uuid": "77813c80-a567-4595-a766-eda5da4e117a"
+                },
+                {
+                    "description": "Piazzola 3 [+5V_USB] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 90.75
+                    },
+                    "uuid": "f79949c4-cca7-4d46-9fe5-6cdab647b7e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di D_TVS1 su F.Cu",
+                    "pos": {
+                        "x": 116.6,
+                        "y": 89.2
+                    },
+                    "uuid": "bfd4dcdc-cbbf-47ed-a543-06f74011958c"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.02,
+                        "y": 92.2
+                    },
+                    "uuid": "9e9bb4b1-ae8e-403d-8e23-ecb5b55b087b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di D_TVS1 su F.Cu",
+                    "pos": {
+                        "x": 116.6,
+                        "y": 89.2
+                    },
+                    "uuid": "bfd4dcdc-cbbf-47ed-a543-06f74011958c"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di U4 su F.Cu",
+                    "pos": {
+                        "x": 103.3625,
+                        "y": 88.85
+                    },
+                    "uuid": "77813c80-a567-4595-a766-eda5da4e117a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di FB_ANA su F.Cu",
+                    "pos": {
+                        "x": 119.175,
+                        "y": 116.5
+                    },
+                    "uuid": "57d010ca-ce56-4b6f-a494-7c638106b548"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.02,
+                        "y": 92.2
+                    },
+                    "uuid": "9e9bb4b1-ae8e-403d-8e23-ecb5b55b087b"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS1 su F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 92.2
+                    },
+                    "uuid": "66922445-7f3e-4d1f-826f-497cd02253f5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A4 [+5V_USB] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 86.45
+                    },
+                    "uuid": "412cd3c1-0d89-4ca6-be0e-1b17d8471f5a"
+                },
+                {
+                    "description": "Piazzola A9 [+5V_USB] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 81.55
+                    },
+                    "uuid": "a35f3da7-7460-43f1-99b7-9ed521817778"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A4 [+5V_USB] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 86.45
+                    },
+                    "uuid": "412cd3c1-0d89-4ca6-be0e-1b17d8471f5a"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS2 su F.Cu",
+                    "pos": {
+                        "x": 122.02,
+                        "y": 92.2
+                    },
+                    "uuid": "9e9bb4b1-ae8e-403d-8e23-ecb5b55b087b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS1 su F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 92.2
+                    },
+                    "uuid": "66922445-7f3e-4d1f-826f-497cd02253f5"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                },
+                {
+                    "description": "Piazzola 28 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 111.175
+                    },
+                    "uuid": "cddd96b0-61b3-4f95-ac73-0ca5c374e749"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [+3V3_DIG] di R_NRST su F.Cu",
+                    "pos": {
+                        "x": 105.01,
+                        "y": 106.5
+                    },
+                    "uuid": "0c04c96d-fb9e-48e9-8c92-4198b9fa1cec"
+                },
+                {
+                    "description": "Piazzola 28 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 111.175
+                    },
+                    "uuid": "cddd96b0-61b3-4f95-ac73-0ca5c374e749"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [+3V3_DIG] di U4 su F.Cu",
+                    "pos": {
+                        "x": 105.6375,
+                        "y": 88.85
+                    },
+                    "uuid": "6f390f0e-dff1-4989-ba65-fb675a770f81"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di C_U4 su F.Cu",
+                    "pos": {
+                        "x": 104.02,
+                        "y": 93.0
+                    },
+                    "uuid": "4bf9c985-8254-430f-b3ae-67c2cb4ce1df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [+3V3_DIG] di U4 su F.Cu",
+                    "pos": {
+                        "x": 105.6375,
+                        "y": 88.85
+                    },
+                    "uuid": "6f390f0e-dff1-4989-ba65-fb675a770f81"
+                },
+                {
+                    "description": "Piazzola 9 [+3V3_DIG] di U2 su F.Cu",
+                    "pos": {
+                        "x": 111.75,
+                        "y": 84.4375
+                    },
+                    "uuid": "95aa959e-4f38-4a89-81b9-f77139c25561"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 11 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 102.5
+                    },
+                    "uuid": "319d81bd-5fa8-4717-ad9e-141d8796c0a3"
+                },
+                {
+                    "description": "Piazzola 2 [+3V3_DIG] di R_NRST su F.Cu",
+                    "pos": {
+                        "x": 105.01,
+                        "y": 106.5
+                    },
+                    "uuid": "0c04c96d-fb9e-48e9-8c92-4198b9fa1cec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 11 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 102.5
+                    },
+                    "uuid": "319d81bd-5fa8-4717-ad9e-141d8796c0a3"
+                },
+                {
+                    "description": "Piazzola 100 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 95.825
+                    },
+                    "uuid": "797218cd-9ad9-499c-b241-27ece9162fec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 100 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 95.825
+                    },
+                    "uuid": "797218cd-9ad9-499c-b241-27ece9162fec"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di C_U4 su F.Cu",
+                    "pos": {
+                        "x": 104.02,
+                        "y": 93.0
+                    },
+                    "uuid": "4bf9c985-8254-430f-b3ae-67c2cb4ce1df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 28 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 111.175
+                    },
+                    "uuid": "cddd96b0-61b3-4f95-ac73-0ca5c374e749"
+                },
+                {
+                    "description": "Piazzola 15 [+3V3_DIG] di U6 su F.Cu",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 119.5625
+                    },
+                    "uuid": "a3848fc0-205c-4177-8965-8f176f432324"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 9 [+3V3_DIG] di U2 su F.Cu",
+                    "pos": {
+                        "x": 111.75,
+                        "y": 84.4375
+                    },
+                    "uuid": "95aa959e-4f38-4a89-81b9-f77139c25561"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.0625,
+                        "y": 81.25
+                    },
+                    "uuid": "64167772-b959-4929-a9ec-76828b82e8ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 19 [+3V3_DIG] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 80.5625
+                    },
+                    "uuid": "64c17bf2-22f6-49a7-b8de-9f4da48c30f2"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.0625,
+                        "y": 81.25
+                    },
+                    "uuid": "64167772-b959-4929-a9ec-76828b82e8ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di C_VDD1 su F.Cu",
+                    "pos": {
+                        "x": 115.02,
+                        "y": 92.2
+                    },
+                    "uuid": "93ecb2e6-dc63-43b9-8bf3-2a76f74cae36"
+                },
+                {
+                    "description": "Piazzola 100 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 95.825
+                    },
+                    "uuid": "797218cd-9ad9-499c-b241-27ece9162fec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di C_VDD1 su F.Cu",
+                    "pos": {
+                        "x": 115.02,
+                        "y": 92.2
+                    },
+                    "uuid": "93ecb2e6-dc63-43b9-8bf3-2a76f74cae36"
+                },
+                {
+                    "description": "Piazzola 75 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 97.5
+                    },
+                    "uuid": "08ce6c5d-5ab4-4006-926b-8ed4b465d7b8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 15 [+3V3_DIG] di U6 su F.Cu",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 119.5625
+                    },
+                    "uuid": "a3848fc0-205c-4177-8965-8f176f432324"
+                },
+                {
+                    "description": "Piazzola 4 [+3V3_DIG] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 125.4,
+                        "y": 120.15
+                    },
+                    "uuid": "6d83e0ff-e345-45ec-9614-aa86735f46b5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 50 [+3V3_DIG] di U3 su F.Cu",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 111.175
+                    },
+                    "uuid": "64c7f397-5712-48a0-9f9c-55af0d10bff2"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 111.295
+                    },
+                    "uuid": "d03fa885-1ee8-49e7-8073-2e7a292290e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 4 [+3V3_DIG] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 125.4,
+                        "y": 120.15
+                    },
+                    "uuid": "6d83e0ff-e345-45ec-9614-aa86735f46b5"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 111.295
+                    },
+                    "uuid": "d03fa885-1ee8-49e7-8073-2e7a292290e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 125.4,
+                        "y": 121.85
+                    },
+                    "uuid": "30842130-fd32-4d90-be6c-76978c2c9e12"
+                },
+                {
+                    "description": "Piazzola 4 [+3V3_DIG] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 125.4,
+                        "y": 120.15
+                    },
+                    "uuid": "6d83e0ff-e345-45ec-9614-aa86735f46b5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 111.295
+                    },
+                    "uuid": "d03fa885-1ee8-49e7-8073-2e7a292290e0"
+                },
+                {
+                    "description": "Piazzola 1 [+3V3_DIG] di C_VDD2 su F.Cu",
+                    "pos": {
+                        "x": 126.72,
+                        "y": 107.0
+                    },
+                    "uuid": "73e8b461-8329-498d-94aa-317430296e77"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                },
+                {
+                    "description": "Piazzola 1 [+2V8_MEMS] di J3 su F.Cu",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 142.8
+                    },
+                    "uuid": "5390b5f2-a86f-4fbd-8099-45556b384f01"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+2V8_MEMS] di C_U5 su F.Cu",
+                    "pos": {
+                        "x": 103.52,
+                        "y": 99.8
+                    },
+                    "uuid": "33db289d-38e6-44e9-8d00-1e806e76ed1d"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [+2V8_MEMS] di U5 su F.Cu",
+                    "pos": {
+                        "x": 105.1375,
+                        "y": 95.55
+                    },
+                    "uuid": "6dc23435-3100-4d63-b793-d336ac1f6311"
+                },
+                {
+                    "description": "Piazzola 1 [+2V8_MEMS] di C_U5 su F.Cu",
+                    "pos": {
+                        "x": 103.52,
+                        "y": 99.8
+                    },
+                    "uuid": "33db289d-38e6-44e9-8d00-1e806e76ed1d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 8 [+5V_ANA] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 131.095
+                    },
+                    "uuid": "109dbc68-21d3-434a-80bd-fe406cff2bcc"
+                },
+                {
+                    "description": "Piazzola 6 [+5V_ANA] di U9 su F.Cu",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 134.0
+                    },
+                    "uuid": "220792f4-dd87-4c26-8146-619332d50ccc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 6 [+5V_ANA] di U9 su F.Cu",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 134.0
+                    },
+                    "uuid": "220792f4-dd87-4c26-8146-619332d50ccc"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_ANA] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 125.75
+                    },
+                    "uuid": "f906f81d-9bb7-497c-83f6-0b82b3b53fa5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 6 [+5V_ANA] di U9 su F.Cu",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 134.0
+                    },
+                    "uuid": "220792f4-dd87-4c26-8146-619332d50ccc"
+                },
+                {
+                    "description": "Piazzola 8 [+5V_ANA] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 131.095
+                    },
+                    "uuid": "99792b8b-eade-43f2-99cb-1932039d4724"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [+5V_ANA] di C_ANA1 su F.Cu",
+                    "pos": {
+                        "x": 119.05,
+                        "y": 119.5
+                    },
+                    "uuid": "83907776-6b0f-411f-91e3-ee88d6ab1061"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_ANA] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 125.75
+                    },
+                    "uuid": "f906f81d-9bb7-497c-83f6-0b82b3b53fa5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [+5V_ANA] di FB_ANA su F.Cu",
+                    "pos": {
+                        "x": 120.825,
+                        "y": 116.5
+                    },
+                    "uuid": "4613296b-4d53-426a-963b-4cb2b9bce795"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_ANA] di C_ANA1 su F.Cu",
+                    "pos": {
+                        "x": 119.05,
+                        "y": 119.5
+                    },
+                    "uuid": "83907776-6b0f-411f-91e3-ee88d6ab1061"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 8 [+5V_ANA] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 131.095
+                    },
+                    "uuid": "99792b8b-eade-43f2-99cb-1932039d4724"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [MEMS_P] di J3 su F.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 142.8
+                    },
+                    "uuid": "2f7cfa41-282b-44d9-a7eb-71ad9935a705"
+                },
+                {
+                    "description": "Piazzola 3 [MEMS_P] di U7 su F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 133.635
+                    },
+                    "uuid": "a3fe547b-52ec-4447-9302-0a9c1ecf537d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 3 [MEMS_N] di J3 su F.Cu",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 142.8
+                    },
+                    "uuid": "57272187-ac49-4460-bfed-4494a1680609"
+                },
+                {
+                    "description": "Piazzola 2 [MEMS_N] di U7 su F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 132.365
+                    },
+                    "uuid": "a37bbcc5-967c-4a7d-9520-c058d68b8858"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [AFE_OUT_P] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 131.095
+                    },
+                    "uuid": "ed57ff25-904c-408c-afb9-85f38b7ff54b"
+                },
+                {
+                    "description": "Piazzola 2 [AFE_OUT_P] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 132.365
+                    },
+                    "uuid": "662e2d29-65cc-4c58-84a7-77a086796ea8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [AFE_OUT_P] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 132.365
+                    },
+                    "uuid": "662e2d29-65cc-4c58-84a7-77a086796ea8"
+                },
+                {
+                    "description": "Piazzola 2 [AFE_OUT_P] di C_AA_FB su F.Cu",
+                    "pos": {
+                        "x": 111.275,
+                        "y": 139.0
+                    },
+                    "uuid": "cd70103f-f780-4521-beb2-e2f01a483087"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 42 [AFE_OUT_P] di U6 su F.Cu",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 126.4375
+                    },
+                    "uuid": "8828f9fb-9fec-4104-a2a0-2a3770906b04"
+                },
+                {
+                    "description": "Piazzola 1 [AFE_OUT_P] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 131.095
+                    },
+                    "uuid": "ed57ff25-904c-408c-afb9-85f38b7ff54b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 47 [AFE_OUT_P] di U6 su F.Cu",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 126.4375
+                    },
+                    "uuid": "a6d4038d-0f8c-4ec7-b977-d539f72aeeb1"
+                },
+                {
+                    "description": "Piazzola 42 [AFE_OUT_P] di U6 su F.Cu",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 126.4375
+                    },
+                    "uuid": "8828f9fb-9fec-4104-a2a0-2a3770906b04"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 7 [AFE_OUT_N] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 132.365
+                    },
+                    "uuid": "febd1ab1-a42d-409d-b530-5b0f750d5819"
+                },
+                {
+                    "description": "Piazzola 6 [AFE_OUT_N] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 133.635
+                    },
+                    "uuid": "420eca34-2207-4499-a36e-b55f1890599c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 41 [AFE_OUT_N] di U6 su F.Cu",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 126.4375
+                    },
+                    "uuid": "09b549f2-7d1c-4768-9859-286e104a0930"
+                },
+                {
+                    "description": "Piazzola 7 [AFE_OUT_N] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 132.365
+                    },
+                    "uuid": "febd1ab1-a42d-409d-b530-5b0f750d5819"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 46 [AFE_OUT_N] di U6 su F.Cu",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 126.4375
+                    },
+                    "uuid": "f66f684a-9da4-4b56-a27d-4ec00a6dd4ba"
+                },
+                {
+                    "description": "Piazzola 41 [AFE_OUT_N] di U6 su F.Cu",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 126.4375
+                    },
+                    "uuid": "09b549f2-7d1c-4768-9859-286e104a0930"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [SAI1_MCLK] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 97.5
+                    },
+                    "uuid": "607ad0b2-d49c-4aeb-aa14-5ab8056d4190"
+                },
+                {
+                    "description": "Piazzola 10 [SAI1_MCLK] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 121.25
+                    },
+                    "uuid": "beabbdbe-81ed-4cc2-aff0-7ec3b38f3ac9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 10 [SAI1_MCLK] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 121.25
+                    },
+                    "uuid": "beabbdbe-81ed-4cc2-aff0-7ec3b38f3ac9"
+                },
+                {
+                    "description": "Piazzola 3 [SAI1_MCLK] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 127.6,
+                        "y": 120.15
+                    },
+                    "uuid": "2ca927b2-c58b-48ff-9e1b-79f3d215fe67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 3 [SAI1_MCLK] di Y2 su F.Cu",
+                    "pos": {
+                        "x": 127.6,
+                        "y": 120.15
+                    },
+                    "uuid": "2ca927b2-c58b-48ff-9e1b-79f3d215fe67"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di TP6 su F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 130.0
+                    },
+                    "uuid": "bab732e9-e79a-410d-8a2b-e7d9e8d299bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 4 [SAI1_SCK] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 99.0
+                    },
+                    "uuid": "310322dc-76d3-47d8-9514-50efc5eb0aad"
+                },
+                {
+                    "description": "Piazzola 11 [SAI1_SCK] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 120.75
+                    },
+                    "uuid": "bca28710-00b3-4bfd-81fe-019bc95a0704"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 3 [SAI1_FS] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 98.5
+                    },
+                    "uuid": "c586f8ae-65ba-44ef-aa67-2a5f1f78d9ba"
+                },
+                {
+                    "description": "Piazzola 12 [SAI1_FS] di U6 su F.Cu",
+                    "pos": {
+                        "x": 117.4375,
+                        "y": 120.25
+                    },
+                    "uuid": "da7e182c-ba08-45eb-93ae-ec130b6d6a11"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [SAI1_SD] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 99.5
+                    },
+                    "uuid": "df224433-6816-40f3-8b20-4bb8520f5a0e"
+                },
+                {
+                    "description": "Piazzola 13 [SAI1_SD] di U6 su F.Cu",
+                    "pos": {
+                        "x": 116.75,
+                        "y": 119.5625
+                    },
+                    "uuid": "e6ae87c4-4674-4cac-87ab-e57c957b4a93"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 21 [ETH_TXP] di U2 su F.Cu",
+                    "pos": {
+                        "x": 112.25,
+                        "y": 80.5625
+                    },
+                    "uuid": "610a9fdc-be7f-4698-9bd8-cc92a160c008"
+                },
+                {
+                    "description": "Piazzola PTH  1 [ETH_TXP] di J1",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 69.0
+                    },
+                    "uuid": "5ebe45a0-44a9-491a-8703-437c0e22009d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 20 [ETH_TXN] di U2 su F.Cu",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 80.5625
+                    },
+                    "uuid": "4d64b8be-9835-42cb-b11f-91165df04fe1"
+                },
+                {
+                    "description": "Piazzola PTH  2 [ETH_TXN] di J1",
+                    "pos": {
+                        "x": 114.74,
+                        "y": 71.54
+                    },
+                    "uuid": "8de684d7-782c-4703-9fe9-6e258fa4f692"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 23 [ETH_RXP] di U2 su F.Cu",
+                    "pos": {
+                        "x": 111.25,
+                        "y": 80.5625
+                    },
+                    "uuid": "050e0b70-1cb1-44e2-b30f-3195a4265496"
+                },
+                {
+                    "description": "Piazzola PTH  3 [ETH_RXP] di J1",
+                    "pos": {
+                        "x": 113.46,
+                        "y": 69.0
+                    },
+                    "uuid": "1c7d5698-85c6-4c32-a3b6-30c118687ea9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola PTH  6 [ETH_RXN] di J1",
+                    "pos": {
+                        "x": 109.66,
+                        "y": 71.54
+                    },
+                    "uuid": "a189ddb3-145e-4008-a3d6-0ece71c6fc18"
+                },
+                {
+                    "description": "Piazzola 22 [ETH_RXN] di U2 su F.Cu",
+                    "pos": {
+                        "x": 111.75,
+                        "y": 80.5625
+                    },
+                    "uuid": "31ceeeef-f702-4afd-8f04-4ef81f7efd87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 71 [USB_DP] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 99.5
+                    },
+                    "uuid": "6a042bcc-911d-4a7d-b824-277deb68dd69"
+                },
+                {
+                    "description": "Piazzola A6 [USB_DP] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 84.25
+                    },
+                    "uuid": "6a642da3-3122-4031-a6e9-68498b0f5bb9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola A6 [USB_DP] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 84.25
+                    },
+                    "uuid": "6a642da3-3122-4031-a6e9-68498b0f5bb9"
+                },
+                {
+                    "description": "Piazzola B6 [USB_DP] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 83.25
+                    },
+                    "uuid": "efc27675-62a0-44de-8210-29c2190dd309"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 70 [USB_DM] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 100.0
+                    },
+                    "uuid": "bcd82b77-55c7-41bd-9dcf-c115d82d2822"
+                },
+                {
+                    "description": "Piazzola B7 [USB_DM] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 84.75
+                    },
+                    "uuid": "96622dcb-c1cc-4b7d-8455-8cd0ce1e5c34"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola B7 [USB_DM] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 84.75
+                    },
+                    "uuid": "96622dcb-c1cc-4b7d-8455-8cd0ce1e5c34"
+                },
+                {
+                    "description": "Piazzola A7 [USB_DM] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 83.75
+                    },
+                    "uuid": "01b9b129-063c-4bae-b620-9610006254cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [USB_CC1] di R_CC1 su F.Cu",
+                    "pos": {
+                        "x": 119.99,
+                        "y": 83.5
+                    },
+                    "uuid": "2f16c2d7-be80-4b1f-a16b-f3098b5541d9"
+                },
+                {
+                    "description": "Piazzola A5 [USB_CC1] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 85.25
+                    },
+                    "uuid": "93953890-acba-456b-bb6d-b1e79179ffa0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [USB_CC2] di R_CC2 su F.Cu",
+                    "pos": {
+                        "x": 119.99,
+                        "y": 85.8
+                    },
+                    "uuid": "c2c09c01-162d-41c7-9fc5-38881954a60e"
+                },
+                {
+                    "description": "Piazzola B5 [USB_CC2] di J2 su F.Cu",
+                    "pos": {
+                        "x": 123.555,
+                        "y": 82.25
+                    },
+                    "uuid": "45f8f791-f545-4341-9848-fb81a03703a6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 24 [ETH_REFCLK] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 109.0
+                    },
+                    "uuid": "a3fd4dcd-a046-422f-92f9-0f85827c7d2f"
+                },
+                {
+                    "description": "Piazzola 14 [ETH_REFCLK] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 83.25
+                    },
+                    "uuid": "77882fcb-7caf-4a29-a04b-308910585325"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 25 [ETH_MDIO] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 109.5
+                    },
+                    "uuid": "b135ea1c-d0fc-4fdb-a2a8-e555cd4010c3"
+                },
+                {
+                    "description": "Piazzola 12 [ETH_MDIO] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 84.4375
+                    },
+                    "uuid": "b1cc8958-670c-497d-8cf2-2ecf45e67e09"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 16 [ETH_MDC] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 105.0
+                    },
+                    "uuid": "bb7f4116-3067-41ad-b54c-a0f7264a3c1f"
+                },
+                {
+                    "description": "Piazzola 13 [ETH_MDC] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 83.75
+                    },
+                    "uuid": "bce2dbc0-4d35-48ee-8df0-0340e8f29716"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 32 [ETH_CRSDV] di U3 su F.Cu",
+                    "pos": {
+                        "x": 112.5,
+                        "y": 111.175
+                    },
+                    "uuid": "d0545859-5e50-4ad5-8e54-ee7c84c20ffe"
+                },
+                {
+                    "description": "Piazzola 11 [ETH_CRSDV] di U2 su F.Cu",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 84.4375
+                    },
+                    "uuid": "492b0a97-e8a7-4b07-a379-f7b18353373e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 8 [ETH_RXD0] di U2 su F.Cu",
+                    "pos": {
+                        "x": 111.25,
+                        "y": 84.4375
+                    },
+                    "uuid": "4b0ed58d-c15f-45a3-98f0-26c6ed38d5ef"
+                },
+                {
+                    "description": "Piazzola 33 [ETH_RXD0] di U3 su F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 111.175
+                    },
+                    "uuid": "1040eb11-ea9c-47d9-bfb3-c85d5479f069"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 7 [ETH_RXD1] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 84.4375
+                    },
+                    "uuid": "6b1ab921-ddf8-41d2-90da-4fe3227d6abf"
+                },
+                {
+                    "description": "Piazzola 34 [ETH_RXD1] di U3 su F.Cu",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 111.175
+                    },
+                    "uuid": "4c14805e-854b-4625-9663-b08e7628d0b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 18 [ETH_TXEN] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 81.25
+                    },
+                    "uuid": "8f1ca75d-7492-4a11-81f4-b6b92bd59967"
+                },
+                {
+                    "description": "Piazzola 47 [ETH_TXEN] di U3 su F.Cu",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 111.175
+                    },
+                    "uuid": "faaf7eee-05f4-4b62-a6f1-2d3f6cef581a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 16 [ETH_TXD0] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 82.25
+                    },
+                    "uuid": "a6d79471-0dde-4327-8959-c516dc2e6054"
+                },
+                {
+                    "description": "Piazzola 51 [ETH_TXD0] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 109.5
+                    },
+                    "uuid": "d22fd1ca-0aeb-4fc0-96f0-85f0103e0781"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 17 [ETH_TXD1] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 81.75
+                    },
+                    "uuid": "8fd34907-13f0-4198-a7f1-ff0b5f94c14c"
+                },
+                {
+                    "description": "Piazzola 52 [ETH_TXD1] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 109.0
+                    },
+                    "uuid": "21fe97b5-e7b0-4af0-a3e5-76a7de0157c4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [ETH_XTAL1] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 83.35
+                    },
+                    "uuid": "84f09dd0-bcb1-4faf-95d4-5af5c994a432"
+                },
+                {
+                    "description": "Piazzola 5 [ETH_XTAL1] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.0625,
+                        "y": 83.25
+                    },
+                    "uuid": "661644f5-faf1-44a5-8779-cceab2229fcc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [ETH_XTAL1] di C_Y1A su F.Cu",
+                    "pos": {
+                        "x": 104.02,
+                        "y": 78.8
+                    },
+                    "uuid": "0fb17218-b9ac-49a4-a040-30fa90294509"
+                },
+                {
+                    "description": "Piazzola 1 [ETH_XTAL1] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 83.35
+                    },
+                    "uuid": "84f09dd0-bcb1-4faf-95d4-5af5c994a432"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 3 [ETH_XTAL2] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 81.65
+                    },
+                    "uuid": "18261f47-bf00-4999-88ef-44433f1134f1"
+                },
+                {
+                    "description": "Piazzola 1 [ETH_XTAL2] di C_Y1B su F.Cu",
+                    "pos": {
+                        "x": 104.02,
+                        "y": 86.0
+                    },
+                    "uuid": "7a754d27-e96c-4a1b-923f-326e526f26b8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 4 [ETH_XTAL2] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.0625,
+                        "y": 82.75
+                    },
+                    "uuid": "eea83dee-12a4-4dbd-9334-a02252626182"
+                },
+                {
+                    "description": "Piazzola 3 [ETH_XTAL2] di Y1 su F.Cu",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 81.65
+                    },
+                    "uuid": "18261f47-bf00-4999-88ef-44433f1134f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 24 [ETH_RBIAS] di U2 su F.Cu",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 80.5625
+                    },
+                    "uuid": "87a0bc7b-ca4d-49b1-856d-ff21a0e9c373"
+                },
+                {
+                    "description": "Piazzola 1 [ETH_RBIAS] di R_BIAS su F.Cu",
+                    "pos": {
+                        "x": 117.99,
+                        "y": 81.0
+                    },
+                    "uuid": "ee9bba62-41a4-4478-9f34-54b9baf8e343"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 20 [I2C1_SCL] di U6 su F.Cu",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 119.5625
+                    },
+                    "uuid": "58b33cdb-9d9a-418e-b44c-36b0e2637407"
+                },
+                {
+                    "description": "Piazzola 92 [I2C1_SCL] di U3 su F.Cu",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 95.825
+                    },
+                    "uuid": "7ca32f28-eba2-408f-8f21-3449163c0372"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 21 [I2C1_SDA] di U6 su F.Cu",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 119.5625
+                    },
+                    "uuid": "0f75a93d-6ef7-4b43-9a01-2f29b01b1d33"
+                },
+                {
+                    "description": "Piazzola 93 [I2C1_SDA] di U3 su F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 95.825
+                    },
+                    "uuid": "03a99718-e3e2-4f12-8971-a6ee54a16322"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 48 [VCAP] di U3 su F.Cu",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 111.175
+                    },
+                    "uuid": "882470ab-0b44-49c5-9aec-b07b15404c46"
+                },
+                {
+                    "description": "Piazzola 1 [VCAP] di C_VCAP2 su F.Cu",
+                    "pos": {
+                        "x": 126.425,
+                        "y": 103.5
+                    },
+                    "uuid": "dacf5536-7c2a-4281-a20d-df6233c9a7f3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [VCAP] di C_VCAP1 su F.Cu",
+                    "pos": {
+                        "x": 126.425,
+                        "y": 100.0
+                    },
+                    "uuid": "3d2ae908-1e7e-494c-9aef-607c167143a5"
+                },
+                {
+                    "description": "Piazzola 73 [VCAP] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 98.5
+                    },
+                    "uuid": "860a11c2-195d-48dc-ac52-9a819486fac4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [VCAP] di C_VCAP2 su F.Cu",
+                    "pos": {
+                        "x": 126.425,
+                        "y": 103.5
+                    },
+                    "uuid": "dacf5536-7c2a-4281-a20d-df6233c9a7f3"
+                },
+                {
+                    "description": "Piazzola 1 [VCAP] di C_VCAP1 su F.Cu",
+                    "pos": {
+                        "x": 126.425,
+                        "y": 100.0
+                    },
+                    "uuid": "3d2ae908-1e7e-494c-9aef-607c167143a5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [NRST] di R_NRST su F.Cu",
+                    "pos": {
+                        "x": 103.99,
+                        "y": 106.5
+                    },
+                    "uuid": "8bf376fb-e1c7-4b80-ac5a-2854b85e03ab"
+                },
+                {
+                    "description": "Piazzola 1 [NRST] di C_NRST su F.Cu",
+                    "pos": {
+                        "x": 104.02,
+                        "y": 109.2
+                    },
+                    "uuid": "53566e31-8367-4c45-85c6-4580f01b0930"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 14 [NRST] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 104.0
+                    },
+                    "uuid": "e8655e9a-c0e9-4952-8b64-9d537f462f15"
+                },
+                {
+                    "description": "Piazzola 1 [NRST] di R_NRST su F.Cu",
+                    "pos": {
+                        "x": 103.99,
+                        "y": 106.5
+                    },
+                    "uuid": "8bf376fb-e1c7-4b80-ac5a-2854b85e03ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 14 [NRST] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 104.0
+                    },
+                    "uuid": "e8655e9a-c0e9-4952-8b64-9d537f462f15"
+                },
+                {
+                    "description": "Piazzola 15 [NRST] di U2 su F.Cu",
+                    "pos": {
+                        "x": 113.9375,
+                        "y": 82.75
+                    },
+                    "uuid": "5cab6a43-876d-4a02-ac94-06ea74c10951"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [BOOT0] di R_BOOT0 su F.Cu",
+                    "pos": {
+                        "x": 103.99,
+                        "y": 112.0
+                    },
+                    "uuid": "ead77287-f00d-44a5-9c8a-85f7aaa7dbfe"
+                },
+                {
+                    "description": "Piazzola 94 [BOOT0] di U3 su F.Cu",
+                    "pos": {
+                        "x": 112.5,
+                        "y": 95.825
+                    },
+                    "uuid": "2e31b145-504b-4384-bb84-2f149201dd3b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 72 [SWDIO] di U3 su F.Cu",
+                    "pos": {
+                        "x": 123.175,
+                        "y": 99.0
+                    },
+                    "uuid": "c758fb9e-b4f6-4896-8dc1-04db638848b1"
+                },
+                {
+                    "description": "Piazzola 2 [SWDIO] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 129.7,
+                        "y": 112.565
+                    },
+                    "uuid": "c2d5b239-fb49-423a-8666-83e561974ecb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 76 [SWCLK] di U3 su F.Cu",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 95.825
+                    },
+                    "uuid": "23635c46-168e-45d9-96d6-fcfa254a4ed9"
+                },
+                {
+                    "description": "Piazzola 3 [SWCLK] di J_SWD su F.Cu",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 113.835
+                    },
+                    "uuid": "835cbfca-5931-473d-801b-3a737ca3afe2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [PRE_OUT] di U7 su F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 131.095
+                    },
+                    "uuid": "c51de8c8-85bc-41a8-b034-7a3b0f396dfa"
+                },
+                {
+                    "description": "Piazzola 4 [PRE_OUT] di U9 su F.Cu",
+                    "pos": {
+                        "x": 113.9,
+                        "y": 133.5
+                    },
+                    "uuid": "9c2ee7e3-48e2-459c-83fc-a11fe3f967a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [PRE_OUT] di C_HPF1 su F.Cu",
+                    "pos": {
+                        "x": 124.55,
+                        "y": 139.0
+                    },
+                    "uuid": "b9d72e9f-dd4d-4482-95fa-ef11f0aae63d"
+                },
+                {
+                    "description": "Piazzola 1 [PRE_OUT] di U7 su F.Cu",
+                    "pos": {
+                        "x": 122.525,
+                        "y": 131.095
+                    },
+                    "uuid": "c51de8c8-85bc-41a8-b034-7a3b0f396dfa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [HPF_N1] di R_HPF_FB su F.Cu",
+                    "pos": {
+                        "x": 119.675,
+                        "y": 139.0
+                    },
+                    "uuid": "fb8fabed-ea9b-4422-a461-141feea08504"
+                },
+                {
+                    "description": "Piazzola 1 [HPF_N1] di C_HPF2 su F.Cu",
+                    "pos": {
+                        "x": 124.55,
+                        "y": 142.5
+                    },
+                    "uuid": "3cffca74-29d1-4220-a4a4-b8c0af150476"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [HPF_N1] di C_HPF2 su F.Cu",
+                    "pos": {
+                        "x": 124.55,
+                        "y": 142.5
+                    },
+                    "uuid": "3cffca74-29d1-4220-a4a4-b8c0af150476"
+                },
+                {
+                    "description": "Piazzola 2 [HPF_N1] di C_HPF1 su F.Cu",
+                    "pos": {
+                        "x": 126.45,
+                        "y": 139.0
+                    },
+                    "uuid": "33607cbe-7d13-49b6-8cbc-f4ae26e7d534"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [HPF_INP] di R_HPF_GND su F.Cu",
+                    "pos": {
+                        "x": 119.675,
+                        "y": 142.0
+                    },
+                    "uuid": "0609b62c-6a5d-4d3e-8dd3-95cb46156ef7"
+                },
+                {
+                    "description": "Piazzola 2 [HPF_INP] di C_HPF2 su F.Cu",
+                    "pos": {
+                        "x": 126.45,
+                        "y": 142.5
+                    },
+                    "uuid": "cbd82284-b936-4885-9394-a312b9e02627"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [HPF_INP] di C_HPF2 su F.Cu",
+                    "pos": {
+                        "x": 126.45,
+                        "y": 142.5
+                    },
+                    "uuid": "cbd82284-b936-4885-9394-a312b9e02627"
+                },
+                {
+                    "description": "Piazzola 5 [HPF_INP] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 134.905
+                    },
+                    "uuid": "b9e323e9-a279-41b7-b46a-ac88bec2a4ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 9 [HPF_OUT] di U9 su F.Cu",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 132.5
+                    },
+                    "uuid": "14d0045e-8b29-4df0-89df-ae96ea29c998"
+                },
+                {
+                    "description": "Piazzola 2 [HPF_OUT] di R_HPF_FB su F.Cu",
+                    "pos": {
+                        "x": 121.325,
+                        "y": 139.0
+                    },
+                    "uuid": "2adb4c7b-b60e-4825-8b6d-b495f9be7893"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [HPF_OUT] di R_HPF_FB su F.Cu",
+                    "pos": {
+                        "x": 121.325,
+                        "y": 139.0
+                    },
+                    "uuid": "2adb4c7b-b60e-4825-8b6d-b495f9be7893"
+                },
+                {
+                    "description": "Piazzola 6 [HPF_OUT] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 133.635
+                    },
+                    "uuid": "78e65f4d-3d6f-4376-81db-750a32359440"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 6 [HPF_OUT] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 133.635
+                    },
+                    "uuid": "78e65f4d-3d6f-4376-81db-750a32359440"
+                },
+                {
+                    "description": "Piazzola 7 [HPF_OUT] di U7 su F.Cu",
+                    "pos": {
+                        "x": 127.475,
+                        "y": 132.365
+                    },
+                    "uuid": "b7341473-c4ff-4fd7-95e3-64e45966d510"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [LPF_N1] di R_AA1 su F.Cu",
+                    "pos": {
+                        "x": 105.175,
+                        "y": 139.0
+                    },
+                    "uuid": "26c42c8a-f3ec-4da1-b91b-09cf02d34b70"
+                },
+                {
+                    "description": "Piazzola 8 [LPF_N1] di U9 su F.Cu",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 133.0
+                    },
+                    "uuid": "52b6b13c-8442-4a0a-b9ac-4199ec48f049"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [AA_N1] di R_AA1 su F.Cu",
+                    "pos": {
+                        "x": 106.825,
+                        "y": 139.0
+                    },
+                    "uuid": "3b2030ad-a7dd-47fd-9447-95b13a3d7db2"
+                },
+                {
+                    "description": "Piazzola 1 [AA_N1] di R_AA2 su F.Cu",
+                    "pos": {
+                        "x": 105.175,
+                        "y": 142.0
+                    },
+                    "uuid": "874dad21-aafc-44c6-8669-78be49682cd1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 1 [AA_N1] di C_AA_FB su F.Cu",
+                    "pos": {
+                        "x": 109.725,
+                        "y": 139.0
+                    },
+                    "uuid": "abcc17ad-2faf-44ac-8eb9-b25f4d297010"
+                },
+                {
+                    "description": "Piazzola 2 [AA_N1] di R_AA1 su F.Cu",
+                    "pos": {
+                        "x": 106.825,
+                        "y": 139.0
+                    },
+                    "uuid": "3b2030ad-a7dd-47fd-9447-95b13a3d7db2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 3 [AA_INP] di U8 su F.Cu",
+                    "pos": {
+                        "x": 105.025,
+                        "y": 133.635
+                    },
+                    "uuid": "be88a756-4b5f-47de-9e8f-f587138e3a34"
+                },
+                {
+                    "description": "Piazzola 2 [AA_INP] di R_AA2 su F.Cu",
+                    "pos": {
+                        "x": 106.825,
+                        "y": 142.0
+                    },
+                    "uuid": "c253d16d-b089-4192-9ce0-0bbf392f1c24"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 2 [AA_INP] di R_AA2 su F.Cu",
+                    "pos": {
+                        "x": 106.825,
+                        "y": 142.0
+                    },
+                    "uuid": "c253d16d-b089-4192-9ce0-0bbf392f1c24"
+                },
+                {
+                    "description": "Piazzola 1 [AA_INP] di C_AA_GND su F.Cu",
+                    "pos": {
+                        "x": 109.725,
+                        "y": 142.0
+                    },
+                    "uuid": "12d69d7a-7f43-4f37-8121-3af1d54af81c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [VCOM_2V5] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 134.905
+                    },
+                    "uuid": "b27cc389-238b-45cd-939f-6dec61bbadbe"
+                },
+                {
+                    "description": "Piazzola 45 [VCOM_2V5] di U6 su F.Cu",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 126.4375
+                    },
+                    "uuid": "bc2d13a9-6a58-4c41-8dfc-8b2127d2e2cd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 5 [VCOM_2V5] di U8 su F.Cu",
+                    "pos": {
+                        "x": 109.975,
+                        "y": 134.905
+                    },
+                    "uuid": "b27cc389-238b-45cd-939f-6dec61bbadbe"
+                },
+                {
+                    "description": "Piazzola 2 [VCOM_2V5] di R_HPF_GND su F.Cu",
+                    "pos": {
+                        "x": 121.325,
+                        "y": 142.0
+                    },
+                    "uuid": "8275dfc0-e76e-4fa9-a6de-c79f0c478aa8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Piazzola 45 [VCOM_2V5] di U6 su F.Cu",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 126.4375
+                    },
+                    "uuid": "bc2d13a9-6a58-4c41-8dfc-8b2127d2e2cd"
+                },
+                {
+                    "description": "Piazzola 1 [VCOM_2V5] di C_VCOM su F.Cu",
+                    "pos": {
+                        "x": 104.225,
+                        "y": 123.0
+                    },
+                    "uuid": "6dee2268-2b24-446f-9746-b5e9d7e31474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_Y1B",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 84.84
+                    },
+                    "uuid": "a7f5ac85-fffa-44f5-803d-2a319f97a8b7"
+                },
+                {
+                    "description": "Segmento di Y1 su F.Silkscreen",
+                    "pos": {
+                        "x": 102.44,
+                        "y": 84.21
+                    },
+                    "uuid": "ea19c59e-4052-4062-b3dc-acc1cb85cd30"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_CC2",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 84.63
+                    },
+                    "uuid": "9fdc8165-c5ce-4241-9c57-257e6af4b26b"
+                },
+                {
+                    "description": "Campo riferimento di J2",
+                    "pos": {
+                        "x": 121.955,
+                        "y": 84.0
+                    },
+                    "uuid": "a144ce76-cc23-44fb-8108-bf18e64a4c3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_VBUS2",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 91.04
+                    },
+                    "uuid": "918524f6-6853-4a21-b842-a6ca1b42b037"
+                },
+                {
+                    "description": "Campo riferimento di C_VBUS1",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 90.52
+                    },
+                    "uuid": "bae36339-5d39-45fc-81c0-d2a2d8de3c14"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_U4",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 91.84
+                    },
+                    "uuid": "254bcdf9-de7e-4564-b99e-e61383f65be3"
+                },
+                {
+                    "description": "Segmento di U4 su F.Silkscreen",
+                    "pos": {
+                        "x": 105.41,
+                        "y": 91.36
+                    },
+                    "uuid": "79ce8e9d-baea-4a9e-b715-994a8da6ea0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_U5",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 98.64
+                    },
+                    "uuid": "e95c90ed-a7d5-4d48-b917-44646c8e3b9b"
+                },
+                {
+                    "description": "Segmento di U5 su F.Silkscreen",
+                    "pos": {
+                        "x": 104.91,
+                        "y": 98.06
+                    },
+                    "uuid": "f4b4a83b-8c0d-4d7d-85ce-487bab6e8409"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di J_SWD su F.Silkscreen",
+                    "pos": {
+                        "x": 127.04,
+                        "y": 115.85
+                    },
+                    "uuid": "925812f3-e962-43a4-8645-3bbd3de6e6f3"
+                },
+                {
+                    "description": "Campo riferimento di TP6",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 128.552
+                    },
+                    "uuid": "ed08342a-eaee-43e9-b96e-1dd00b47763e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_HPF_FB",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 137.57
+                    },
+                    "uuid": "5e65c5ba-c3e7-401b-bba3-cc1e6008f97d"
+                },
+                {
+                    "description": "Campo riferimento di C_HPF1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 137.32
+                    },
+                    "uuid": "b1399f3c-c85f-46e2-aef3-2f2df3a8fa59"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_HPF_GND",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 140.57
+                    },
+                    "uuid": "1849f0ba-529c-4c2e-a3d6-3faad260d532"
+                },
+                {
+                    "description": "Campo riferimento di C_HPF2",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 140.82
+                    },
+                    "uuid": "bcbb6b75-e067-401b-954f-273c9758de38"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_AA_FB",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 137.57
+                    },
+                    "uuid": "4af2b73c-03ff-4fba-af79-e98ccc360cf0"
+                },
+                {
+                    "description": "Campo riferimento di R_AA1",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 137.57
+                    },
+                    "uuid": "fe45c07d-a29a-4cfc-bdd8-b09052d378e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_AA_GND",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 140.57
+                    },
+                    "uuid": "71449fe0-f2dd-45b8-b278-526be57cd76a"
+                },
+                {
+                    "description": "Campo riferimento di R_AA2",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 140.57
+                    },
+                    "uuid": "fd6c73be-9e5e-42ae-b4de-60e70d4d759b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_VBUS2",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 91.04
+                    },
+                    "uuid": "918524f6-6853-4a21-b842-a6ca1b42b037"
+                },
+                {
+                    "description": "Piazzola 1 [+5V_USB] di C_VBUS1 su F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 92.2
+                    },
+                    "uuid": "66922445-7f3e-4d1f-826f-497cd02253f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_NRST",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 105.33
+                    },
+                    "uuid": "30972013-450a-4c77-a2b5-3df31e870b14"
+                },
+                {
+                    "description": "Piazzola 16 [ETH_MDC] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 105.0
+                    },
+                    "uuid": "bb7f4116-3067-41ad-b54c-a0f7264a3c1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_NRST",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 108.04
+                    },
+                    "uuid": "0a88fc37-ab1a-4ead-ac63-3cf3575d34e6"
+                },
+                {
+                    "description": "Piazzola 21 [<no net>] di U3 su F.Cu",
+                    "pos": {
+                        "x": 107.825,
+                        "y": 107.5
+                    },
+                    "uuid": "e58f8dcc-00f4-4b42-860a-6ebd7675cf16"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

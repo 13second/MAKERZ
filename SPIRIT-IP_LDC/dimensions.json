@@ -1,0 +1,182 @@
+{
+  "project": "SPIRIT-IP_LDC",
+  "version": "1.2.1",
+  "units": "mm",
+  "enclosure": {
+    "style": "Aston Spirit Studio LDC (Pure Digital) — Crystal-Clear 8001 Resin Body + 316L Stainless Helical Wave-Form Grille",
+    "outer_diameter_mm": 54.0,
+    "wall_thickness_mm": 3.0,
+    "inner_diameter_mm": 48.0,
+    "body_height_mm": 114.0,
+    "grille_height_mm": 62.0,
+    "total_height_mm": 176.0,
+    "bottom_cap_height_mm": 12.0,
+    "body_shoulder_radius_mm": 25.3,
+    "grille_collar_inner_radius_mm": 25.55,
+    "headamp_lip_radial_mm": 1.4,
+    "thread_boss_od_mm": 22.0,
+    "thread_insert_bore_mm": 15.875,
+    "switch_slots": [
+      {
+        "name": "SW1_PATTERN",
+        "z_mm": 88.0,
+        "w_mm": 7.5,
+        "h_mm": 4.2,
+        "label": "CARD / OMNI / FIG8"
+      },
+      {
+        "name": "SW2_PAD",
+        "z_mm": 74.0,
+        "w_mm": 7.5,
+        "h_mm": 4.2,
+        "label": "0 / -10 / -20 dB"
+      },
+      {
+        "name": "SW3_HPF",
+        "z_mm": 60.0,
+        "w_mm": 7.5,
+        "h_mm": 4.2,
+        "label": "FLAT / 80 Hz"
+      }
+    ],
+    "bottom_ports": {
+      "thread_insert_5_8_offset_xy_mm": [
+        -12.0,
+        0.0
+      ],
+      "thread_insert_5_8_diameter_mm": 15.875,
+      "rj45_cutout_wh_mm": [
+        16.4,
+        13.8
+      ],
+      "rj45_offset_xy_mm": [
+        9.5,
+        3.0
+      ],
+      "usbc_cutout_wh_mm": [
+        9.4,
+        3.6
+      ],
+      "usbc_offset_xy_mm": [
+        9.5,
+        -10.0
+      ]
+    },
+    "saddle": {
+      "base_z_mm": [
+        116.5,
+        120.5
+      ],
+      "base_radius_mm": 23.85,
+      "step_top_z_mm": 116.5,
+      "step_inner_radius_mm": 21.5,
+      "keys_deg": [
+        75,
+        190,
+        305
+      ],
+      "feet_deg": [
+        25,
+        155,
+        205,
+        335
+      ],
+      "feet_z_mm": [
+        112.0,
+        116.5
+      ],
+      "feet_radius_mm": [
+        16.0,
+        17.6
+      ],
+      "shelves_z_top_mm": 110.2,
+      "shelf_lip_radius_mm": 18.2,
+      "cradle_arc_center_z_mm": 146.0,
+      "cradle_arc_radius_mm": 18.5,
+      "cradle_horn_top_z_mm": 149.5,
+      "wire_slot_xy_mm": [
+        -12.5,
+        0.0
+      ],
+      "wire_slot_wh_mm": [
+        6.0,
+        9.0
+      ],
+      "shockmount_tpu_thickness_mm": 1.5
+    },
+    "tpu": {
+      "width_mm": 12.6,
+      "lip_mm": 1.3,
+      "window_wh_mm": [
+        5.0,
+        7.0
+      ],
+      "pads_deg": [
+        -22,
+        0,
+        22
+      ],
+      "pad_width_mm": 5.0,
+      "preload_mm": 0.3
+    },
+    "rails": {
+      "x_range_mm": [
+        17.5,
+        25.0
+      ],
+      "y_width_mm": 5.0,
+      "groove_x_mm": [
+        17.5,
+        19.2
+      ],
+      "groove_y_mm": 2.0,
+      "z_range_mm": [
+        17.2,
+        109.0
+      ]
+    }
+  },
+  "capsule": {
+    "type": "34 mm Dual-Diaphragm Gold-Sputtered LDC (K67/CK12 style)",
+    "diameter_mm": 34.0,
+    "thickness_mm": 10.0,
+    "saddle_z_mm": 116.5,
+    "bias_voltage_v": 60.0,
+    "capsule_center_z_mm": 146.0
+  },
+  "pcbs": {
+    "main_4l": {
+      "width_mm": 38.0,
+      "height_mm": 94.0,
+      "thickness_mm": 1.6,
+      "layers": 4,
+      "stackup": "JLC04161H-7628 (F.Cu / GND / PWR / B.Cu)",
+      "origin_kicad_xy": [
+        100.0,
+        50.0
+      ],
+      "z_mm": [
+        14.0,
+        108.0
+      ]
+    },
+    "headamp_2l": {
+      "diameter_mm": 36.0,
+      "thickness_mm": 1.6,
+      "layers": 2,
+      "shield_can_mm": [
+        16.5,
+        16.5
+      ],
+      "origin_kicad_xy": [
+        100.0,
+        100.0
+      ],
+      "shield_can_height_mm": 3.6,
+      "z_mm": [
+        110.2,
+        111.8
+      ]
+    }
+  }
+}

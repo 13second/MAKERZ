@@ -1,0 +1,199 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T23:24:22",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "SPIRIT-IP_Headamp.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "09da5e89-393b-4649-ac57-803260370ecd"
+                },
+                {
+                    "description": "Campo riferimento di C_BIAS1",
+                    "pos": {
+                        "x": 110.2,
+                        "y": 87.52
+                    },
+                    "uuid": "327fd234-6aa5-4411-84db-8de2ff1c1e72"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Cerchio su Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "09da5e89-393b-4649-ac57-803260370ecd"
+                },
+                {
+                    "description": "Campo riferimento di J_LINK",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 81.82
+                    },
+                    "uuid": "8f632745-f45e-487c-9313-3afba273318b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_G2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 108.85
+                    },
+                    "uuid": "14a0dcbb-dcfd-44ea-b540-5982ab7e9351"
+                },
+                {
+                    "description": "Segmento di SH1 su F.Silkscreen",
+                    "pos": {
+                        "x": 96.16,
+                        "y": 108.36
+                    },
+                    "uuid": "af3104df-d705-47a9-a495-3b3765198882"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento di SH1 su F.Silkscreen",
+                    "pos": {
+                        "x": 102.16,
+                        "y": 108.36
+                    },
+                    "uuid": "09e42fcc-fe11-4ae0-9eee-ab609a7a0611"
+                },
+                {
+                    "description": "Campo riferimento di C_HPF",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 108.82
+                    },
+                    "uuid": "c651214c-527d-45df-ba43-4e52269ac512"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Poligono di U_BIAS su F.Silkscreen",
+                    "pos": {
+                        "x": 102.15,
+                        "y": 95.29
+                    },
+                    "uuid": "3e565aa4-dffa-487a-afba-ba2bb5aa12ae"
+                },
+                {
+                    "description": "Campo riferimento di U_BIAS",
+                    "pos": {
+                        "x": 103.6,
+                        "y": 94.4
+                    },
+                    "uuid": "8d30e5c9-e690-4302-a6bd-469cb36d196e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di R_G2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 108.85
+                    },
+                    "uuid": "14a0dcbb-dcfd-44ea-b540-5982ab7e9351"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di SH1 su F.Cu",
+                    "pos": {
+                        "x": 94.125,
+                        "y": 108.15
+                    },
+                    "uuid": "cf76d327-fdce-4c40-806c-ad7274da3dc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo riferimento di C_HPF",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 108.82
+                    },
+                    "uuid": "c651214c-527d-45df-ba43-4e52269ac512"
+                },
+                {
+                    "description": "Piazzola 1 [GND] di SH1 su F.Cu",
+                    "pos": {
+                        "x": 105.875,
+                        "y": 108.15
+                    },
+                    "uuid": "8a0b5c3b-5702-4a26-b85e-60d3fb6d919a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

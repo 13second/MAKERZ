@@ -1,0 +1,12 @@
+M48
+; IU-MIC_ORIGIN JLCPCB Excellon Drill (NPTH) — Metric Decimal
+FMAT,2
+METRIC
+T1C1.000
+%
+G90
+G05
+T1
+X4.000Y4.000
+T0
+M30

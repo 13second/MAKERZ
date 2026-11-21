@@ -1,0 +1,26 @@
+# T1 — Verifica Datasheet Componenti Critici (IU-MIC_ORIGIN)
+
+*Data verifica: 2026-11-20 · Tutti i parametri estratti da datasheet ufficiali dei produttori.*
+
+## Tabella di Verifica Datasheet
+
+| Componente | Ruolo / Stadio | Package Reale | Range Alimentazione | Tensione Fondo Scala / Livello Segnale | Pinout Critico Verificato | Fonte |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Infineon IM73A135V01** | Capsula MEMS Omni (Stadio 1) | **PG-LLGA-5-2** (5 pin, Bottom-Port, `4.00 × 3.00 × 1.20 mm`, IP57) | **1.52 V – 3.00 V** *(Normal Mode: 2.75 V @ 170 µA — **NON 3.3 V!**)* | Sensibilità `-38 ± 1 dBV/Pa` (94 dB SPL); AOP `135 dB SPL` (10% THD, `1.413 Vrms` diff) / `132 dB SPL` (1% THD, `1.000 Vrms`); SNR `73 dB(A)`; LFRO `20 Hz` | `1: OUT+`, **`2: VDD`**, `3: OUT-`, **`4: GND`**, `5: GND` *(verificato anche vs KiCad 10 `Sensor_Audio:IM73A135V01`)* | Infineon XENSIV™ IM73A135V01 Datasheet (infineon.com) |
+| **AKM AK5572EN** | ADC 32-bit 2ch (Stadio 1) | **48-pin QFN** (`7.0 × 7.0 mm` + Exposed Pad `VSS`) | `AVDD`: **4.75 V – 5.25 V** (typ 5.0 V); `TVDD`: **1.7–1.98 V** o **3.0–3.6 V** (typ 3.3 V) | Ingresso diff. fondo scala **`±2.8 Vpp`** (`5.6 Vpp` diff = **`1.980 Vrms`** @ `VREFH=5.0 V`, DC bias `0.502–0.522 × AVDD`); DR `121 dB` stereo / **`124 dB`** 2-to-1 mono; S/(N+D) `112 dB` | `AIN1P` (Pin 47), `AIN1N`, `AIN2P`, `AIN2N`, `AVDD`, `TVDD`, `VREFH/L`, `MCKI`, `BICK`, `LRCK`, `SDTO1/2`, `I2C/SPI` | AKM AK5572EN Datasheet (akm.com / mouser.com) |
+| **TI OPA1656IDR** | AFE / Filtri / Driver ADC (Stadio 1) | **SOIC-8 (D)** (`3.9 × 4.9 mm`, Dual Op-Amp) | Singola: **4.5 V – 36 V**; Duale: **±2.25 V – ±18 V** | Rumore $e_n = 2.9\text{ nV}/\sqrt{\text{Hz}}$ @ 10 kHz ($4.3\text{ nV}/\sqrt{\text{Hz}}$ @ 1 kHz); GBW `53 MHz`; SR `24 V/µs`; THD+N `-131 dB` | `1: OUTA`, `2: -INA`, `3: +INA`, `4: V-`, `5: +INB`, `6: -INB`, `7: OUTB`, `8: V+` | Texas Instruments OPA1656 Datasheet (ti.com) |
+| **TI TMUX1104DGSR** | Switch Bypass HPF/LPF (Stadio 1) | **VSSOP-10 (DGS)** (`3.0 × 4.9 mm`, 4:1 MUX) | **1.08 V – 5.5 V** (Abs Max `6.0 V`) | $R_{ON} \approx 2.0\text{–}2.5\,\Omega$ typ (`4.5 Ω` max @ 5 V); $C_{ON} \approx 35\text{–}40\text{ pF}$ | `1: A0`, `2: GND`, `3: EN`, `4: S1`, `5: S3`, `6: VDD`, `7: S4`, `8: D`, `9: S2`, `10: A1` | Texas Instruments TMUX1104 Datasheet (ti.com) |
+| **Microchip LAN8742A-CZ** | Ethernet 100M PHY RMII (Stadio 1) | **24-pin SQFN** (`4.0 × 4.0 × 0.9 mm`, 0.5 mm pitch + EP `VSS`) | `VDD1A`/`VDD2A`: **3.3 V**; `VDDIO`: **1.6 V – 3.6 V** (typ 3.3 V); `VDDCR`: 1.2 V LDO int. | Interfaccia RMII 50 MHz (`REFCLKO` Pin 14 da quarzo 25 MHz su `XTAL1/2`); `RBIAS = 12.1 kΩ ±1%` | `1: VDD2A`, `4-5: XTAL2/1`, `6: VDDCR`, `7-8: RXD1/0`, `9: VDDIO`, `11: CRS_DV`, `12-13: MDIO/MDC`, `14: REFCLKO`, `15: nRST`, `16-18: TXD0/1/EN`, `19: VDD1A`, `20-23: TXN/P, RXN/P`, `24: RBIAS`, `EP: VSS` | Microchip LAN8742A Datasheet (microchip.com) |
+| **ST STM32H743VIT6** | MCU DSP / AoIP / PTPv2 (Stadio 1) | **LQFP-100** (`14 × 14 mm`) | `VDD`/`VDDA`: **1.62 V – 3.6 V** (typ 3.3 V); `VCAP`: 1.2 V core LDO int. | Cortex-M7 `480 MHz`, 2 MB Flash, 1 MB RAM, ETH MAC RMII + IEEE 1588 PTPv2 HW, 2× SAI | RMII su LQFP100: `PA1(REF_CLK)`, `PA2(MDIO)`, `PC1(MDC)`, `PA7(CRS_DV)`, `PC4/5(RXD0/1)`, **`PB11/12/13(TX_EN/TXD0/TXD1)`** *(Port G assente su LQFP100!)* | STMicroelectronics STM32H743 Datasheet DS12110 (st.com) |
+| **THAT Corp THAT1646W16-U** | Driver XLR Bilanciato (Stadio 2) | **SO16W** (16-pin Wide SOIC) | **Duale obbligatoria: ±4 V – ±18 V** (nom. ±15 V, Abs Max ±20 V) | Max output `+27.5 dBu` (`18 Vrms`) su `600 Ω` @ ±15 V; `±70 mA` | `3: Out-`, `4: Sns-`, `5: Gnd`, `6: In`, `11: Vee`, `12: Vcc`, `13: Sns+`, `14: Out+` (`1,2,7-10,15,16: NC`) | THAT Corporation THAT1646 Datasheet (thatcorp.com) |
+| **TI TPS23753APWR** | Controller PoE 802.3af (Stadio 2) | **TSSOP-14 (PW)** (`5.0 × 4.4 mm`) | **36 V – 57 V** PoE operativo (`0–57 V` input, `100 V` Abs Max, 13 W Type 1) | Gate drive flyback isolato; bias interno `VB = 5 V` | `1: CTL`, `2: VB`, `3: COMP`, `4: CS`, `5: RT`, `6: SYNC`, `7: GATE`, `8: VSS`, `9: VDD`, `10: DEN`, `11: CLS`, `12: APD`, `13: BLNK`, `14: RTN` | Texas Instruments TPS23753A Datasheet (ti.com) |
+
+## Errori Critici dell'Architettura Precedente Emersi da T1
+1. **`IM73A135V01` alimentata a `+3.3 V` era fuori specifica** (max `3.00 V`!): nello Stadio 1 va previsto un LDO ultra-low-noise dedicato a **`+2.75 V` / `+2.8 V`** (`TPS7A2028`).
+2. **`IM73A135V01` è a 5 pin (`PG-LLGA-5-2`)**, non 4 pin; inoltre è **Bottom-Port** (il foro acustico Ø 1.0 mm attraversa il Tip PCB sotto la capsula).
+3. **`STM32H743VIT6` LQFP100 non possiede il Port G**: i segnali Ethernet RMII `TX_EN/TXD0/TXD1` devono mappare su **`PB11/PB12/PB13`**.
+4. **`THAT1646` (Stadio 2) richiede alimentazione bipolare `±V` (`≥ ±4 V`)**: nello Stadio 2 andrà generato un rail negativo low-noise (es. `±5 V` o `±12 V`).
+
+## Risultato Gate T1
+- **PASS**: 0 righe `"NON VERIFICATO"` tra i componenti critici. Tutti i package, range di alimentazione, tensioni di fondo scala e pinout funzionali sono confermati da datasheet ufficiali.
+- *Nota di verifica fisica prima di T4*: la numerazione completa dei 48 pin dell'`AK5572EN` e dei 100 pin dell'`STM32H743VIT6` andrà importata dai simboli ufficiali KiCad/SnapEDA/STM32CubeMX (non trascritta manualmente).

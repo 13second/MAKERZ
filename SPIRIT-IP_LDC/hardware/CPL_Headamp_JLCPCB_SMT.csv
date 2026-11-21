@@ -1,0 +1,11 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+C_ANA_H,100.00mm,-113.50mm,Top,0.0
+C_BIAS1,110.20mm,-89.20mm,Top,0.0
+C_HPF,105.00mm,-110.50mm,Top,0.0
+J_LINK,100.00mm,-85.80mm,Top,0.0
+R_G1,89.80mm,-89.20mm,Top,0.0
+R_G2,95.00mm,-110.50mm,Top,0.0
+SH1,100.00mm,-100.00mm,Top,0.0
+U_A1,96.40mm,-100.00mm,Top,270.0
+U_A2,103.80mm,-103.80mm,Top,270.0
+U_BIAS,103.60mm,-96.80mm,Top,270.0

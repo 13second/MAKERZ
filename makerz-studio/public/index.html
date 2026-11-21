@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKERZ Studio — ECAD &amp; 3D Hardware Workbench</title>
+  <link rel="stylesheet" href="/styles.css?v=1.1.2" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Sidebar: MAKERZ Project Registry -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">M</div>
+        <div>
+          <div class="brand-title">MAKERZ Studio</div>
+          <div class="brand-sub" id="rootPathLabel">Crucial X9 / MAKERZ</div>
+        </div>
+      </div>
+
+      <div class="sidebar-actions">
+        <input id="projectSearch" type="search" placeholder="Cerca progetto..." />
+        <button id="newProjectBtn" class="btn-primary" title="Crea nuovo progetto in MAKERZ">+ Nuovo</button>
+      </div>
+
+      <div class="section-label">PROGETTI &amp; CRONOLOGIA</div>
+      <div id="projectList" class="project-list"></div>
+
+      <div class="sidebar-footer">
+        <div class="status-dot"></div>
+        <span>Registro sincronizzato su SSD</span>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+      <header class="topbar">
+        <div class="project-header">
+          <h1 id="activeProjectName">Seleziona un progetto</h1>
+          <span id="activeProjectBadge" class="badge">v1.0.0</span>
+          <span id="activeProjectMeta" class="meta-text"></span>
+        </div>
+        <nav class="tabs" id="viewTabs">
+          <button class="tab active" data-tab="3d">Modello 3D</button>
+          <button class="tab" data-tab="schematic">Schema Elettrico</button>
+          <button class="tab" data-tab="pcb">PCB Layout 2D</button>
+          <button class="tab" data-tab="bom">BOM &amp; Specifiche</button>
+        </nav>
+      </header>
+
+      <!-- TAB 1: 3D Viewer -->
+      <section class="panel active" id="panel-3d">
+        <div class="viewport-3d-wrap">
+          <canvas id="canvas3d"></canvas>
+          <div class="hud-3d-controls">
+            <div class="hud-title">Controlli Assieme 3D</div>
+            <label class="slider-row">
+              <span>Vista Esplosa</span>
+              <input id="explodeSlider" type="range" min="0" max="100" value="0" />
+            </label>
+            <div class="btn-row">
+              <button id="resetCamBtn" class="btn-ghost">Reset Camera</button>
+              <button id="wireframeBtn" class="btn-ghost">Wireframe</button>
+            </div>
+            <div class="hud-subtitle">Export Modello 3D</div>
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <a id="dl3dZip" class="btn-primary" style="text-decoration:none;text-align:center" download>⬇ JLCPCB 3D Print (3× STL ZIP)</a>
+              <div class="btn-row">
+                <a id="dl3dStep" class="btn-ghost" style="text-decoration:none;text-align:center;flex:1" download>⬇ STEP</a>
+                <a id="dl3dGlb" class="btn-ghost" style="text-decoration:none;text-align:center;flex:1" download>⬇ GLB</a>
+                <button id="regen3dBtn" class="btn-ghost" style="flex:1" title="Rigenera STEP, STL, GLB e ZIP">↻ 3D</button>
+              </div>
+            </div>
+            <div class="hud-subtitle">Parti &amp; Download Singoli</div>
+            <div id="partsList" class="parts-list"></div>
+          </div>
+          <div class="hud-3d-hint">Trascina: Ruota · Scroll: Zoom · Tasto Destro: Pan</div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Schematic Viewer -->
+      <section class="panel" id="panel-schematic">
+        <div class="svg-toolbar">
+          <span class="toolbar-title">Schema Elettrico Architetturale</span>
+          <div class="toolbar-btns">
+            <button class="btn-ghost" data-zoom="in" data-target="schematic">Zoom +</button>
+            <button class="btn-ghost" data-zoom="out" data-target="schematic">Zoom −</button>
+            <button class="btn-ghost" data-zoom="reset" data-target="schematic">Adatta</button>
+          </div>
+        </div>
+        <div class="svg-stage" id="stage-schematic"></div>
+      </section>
+
+      <!-- TAB 3: PCB Layout Viewer -->
+      <section class="panel" id="panel-pcb">
+        <div class="svg-toolbar">
+          <div class="pcb-layer-switch">
+            <button class="btn-pill active" data-pcb-view="front">Main PCB — Front</button>
+            <button class="btn-pill" data-pcb-view="back">Main PCB — Back</button>
+            <button class="btn-pill" data-pcb-view="tip">MEMS Tip PCB (Ø 8mm)</button>
+          </div>
+          <div class="toolbar-btns">
+            <a id="dlGerberMain" class="btn-primary" style="text-decoration:none" download>⬇ Gerber Main (4L ZIP)</a>
+            <a id="dlGerberTip" class="btn-primary" style="text-decoration:none;background:#14b8a6" download>⬇ Gerber Tip (2L ZIP)</a>
+            <a id="dlBomCsv" class="btn-ghost" style="text-decoration:none" download>⬇ BOM CSV</a>
+            <a id="dlCplCsv" class="btn-ghost" style="text-decoration:none" download>⬇ CPL CSV</a>
+            <button id="regenGerberBtn" class="btn-ghost" title="Rigenera i file Gerber RS-274X + Drill ZIP">↻ Rigenera</button>
+            <button class="btn-ghost" data-zoom="in" data-target="pcb">Zoom +</button>
+            <button class="btn-ghost" data-zoom="out" data-target="pcb">Zoom −</button>
+            <button class="btn-ghost" data-zoom="reset" data-target="pcb">Adatta</button>
+          </div>
+        </div>
+        <div class="svg-stage" id="stage-pcb"></div>
+      </section>
+
+      <!-- TAB 4: BOM & Specs -->
+      <section class="panel" id="panel-bom">
+        <div class="bom-layout">
+          <div class="specs-grid" id="specsGrid"></div>
+          <div class="notes-card">
+            <div class="card-head">
+              <h3>Note di Progetto (salvate automaticamente)</h3>
+              <span id="notesSavedMsg" class="saved-msg"></span>
+            </div>
+            <textarea id="projectNotes" placeholder="Annota revisioni, risultati test acustici, modifiche BOM..."></textarea>
+          </div>
+          <div class="bom-card">
+            <div class="card-head">
+              <h3>Bill of Materials (JLCPCB / LCSC &amp; Octopart)</h3>
+              <input id="bomFilter" type="search" placeholder="Filtra componente o codice LCSC..." />
+            </div>
+            <div class="cost-summary" id="costSummary"></div>
+            <div class="table-wrap">
+              <table id="bomTable">
+                <thead>
+                  <tr>
+                    <th>Ref</th><th>Valore / MPN (Octopart)</th><th>Footprint</th><th>Qty</th><th>Unit. (€)</th><th>Subtot. (€)</th><th>LCSC #</th><th>Produttore</th><th>Board</th><th>Note</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal: New Project -->
+  <dialog id="newProjectDialog" class="modal">
+    <form method="dialog" id="newProjectForm">
+      <h2>Nuovo Progetto in MAKERZ</h2>
+      <label>Nome progetto (es. SYNTH_MOD_V1)
+        <input id="newProjName" required pattern="[A-Za-z0-9_-]+" placeholder="MY_DEVICE_V1" />
+      </label>
+      <label>Descrizione breve
+        <input id="newProjSub" placeholder="Scheda PCB + Scocca 3D..." />
+      </label>
+      <div class="modal-actions">
+        <button type="button" id="cancelNewProj" class="btn-ghost">Annulla</button>
+        <button type="submit" class="btn-primary">Crea Progetto</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="/app.js?v=1.1.2"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* IU-MIC_ORIGIN T3 — Filtri Butterworth Q=0.707 + TMUX1104 Bypass + OPA1656 Model
+* Parametri OPA1656 da datasheet TI: GBW = 53 MHz, Aol = 120 dB (1e6), en = 2.9 nV/rtHz
+
+.subckt OPA1656_MODEL inp inn out
+* Ingresso alta impedenza + generatore di rumore equivalente 2.9 nV/rtHz (R_eq = 507 Ohm @ 300K)
+Rin inp inn 1e12
+Rnoise inp n_in 507
+* Stadio guadagno + polo dominante: fp = GBW / Aol = 53e6 / 1e6 = 53 Hz (R=1e6, C=3.003nF)
+G1 0 n1 n_in inn 1.0
+R1 n1 0 1e6
+C1 n1 0 3.003n
+* Buffer uscita bassa impedenza (Ro = 10 Ohm)
+Eout n2 0 n1 0 1.0
+Rout n2 out 10
+.ends
+
+* Modello TMUX1104 (datasheet TI: Ron = 2.5 Ohm typ, Con = 40 pF)
+.subckt TMUX1104_SW in out
+Rsw in out 2.5
+Csw out 0 40p
+.ends
+
+* Sorgente AC + SIN per AC, Noise e THD (1.0 Vrms = 1.4142 Vpk @ 1 kHz)
+Vin in_src 0 DC 0 AC 1 SIN(0 1.4142 1k)
+
+* =========================================================================
+* 1. HPF 20 Hz (Butterworth Q=0.7071, Unity Gain, R_gnd = 2*R_fb)
+*    C1 = C2 = 100 nF, R_fb = 56.2 kOhm, R_gnd = 113 kOhm -> fc = 19.97 Hz
+* =========================================================================
+C_hpf1 in_src hpf_n1 100n
+C_hpf2 hpf_n1 hpf_inp 100n
+R_hpf_fb hpf_n1 hpf_op 56.2k
+R_hpf_gnd hpf_inp 0 113k
+X_hpf hpf_inp hpf_op hpf_op OPA1656_MODEL
+X_sw_hpf hpf_op hpf_out TMUX1104_SW
+
+* =========================================================================
+* 2. LPF 20 kHz (Butterworth Q=0.7071, Unity Gain, C_fb = 2*C_gnd)
+*    R1 = R2 = 2.55 kOhm, C_gnd = 2.2 nF, C_fb = 4.4 nF (2x 2.2nF) -> fc = 20.06 kHz
+* =========================================================================
+R_lpf1 in_src lpf_n1 2.55k
+R_lpf2 lpf_n1 lpf_inp 2.55k
+C_lpf_fb lpf_n1 lpf_op 4.4n
+C_lpf_gnd lpf_inp 0 2.2n
+X_lpf lpf_inp lpf_op lpf_op OPA1656_MODEL
+X_sw_lpf lpf_op lpf_out TMUX1104_SW
+
+* =========================================================================
+* 3. ANTI-ALIASING 140 kHz (coerente con D2 Fs=384 kHz, banda utile 20-80 kHz)
+*    R1 = R2 = 806 Ohm, C_gnd = 1.0 nF, C_fb = 2.0 nF (2x 1.0nF) -> fc = 139.6 kHz
+* =========================================================================
+R_aa1 in_src aa_n1 806
+R_aa2 aa_n1 aa_inp 806
+C_aa_fb aa_n1 aa_op 2.0n
+C_aa_gnd aa_inp 0 1.0n
+X_aa aa_inp aa_op aa_op OPA1656_MODEL
+X_sw_aa aa_op aa_out TMUX1104_SW
+
+* Catena Full-Band (HPF+LPF bypassati via TMUX1104 -> AA 140 kHz)
+X_sw_byp1 in_src byp_n1 TMUX1104_SW
+X_sw_byp2 byp_n1 byp_n2 TMUX1104_SW
+R_fb_aa1 byp_n2 fb_aa_n1 806
+R_fb_aa2 fb_aa_n1 fb_aa_inp 806
+C_fb_aa_fb fb_aa_n1 fb_aa_op 2.0n
+C_fb_aa_gnd fb_aa_inp 0 1.0n
+X_fb_aa fb_aa_inp fb_aa_op fb_aa_op OPA1656_MODEL
+
+.control
+set wr_vecnames
+set wr_singlescale
+
+* 1) AC Sweep: 1 Hz -> 10 MHz (100 pt/dec)
+ac dec 100 1 10meg
+wrdata ac_sweep.dat vdb(hpf_out) vdb(lpf_out) vdb(aa_out) vdb(fb_aa_op)
+
+* 2) Noise Analysis: Full-Band (20 Hz -> 80 kHz)
+noise v(fb_aa_op) Vin dec 50 20 80k
+print onoise_total
+
+* 3) Noise Analysis: LPF 20k Active (20 Hz -> 20 kHz)
+noise v(lpf_out) Vin dec 50 20 20k
+print onoise_total
+
+* 4) Transient + THD @ 1 kHz (1 Vrms) on Full-Band & LPF 20k
+tran 1u 10m 5m
+fourier 1k v(fb_aa_op) v(lpf_out)
+quit
+.endc
+.end

@@ -1,0 +1,128 @@
+{
+  "id": "spirit-ip-ldc",
+  "name": "SPIRIT-IP_LDC",
+  "subtitle": "Microfono a Condensatore Largo Diaframma 34mm stile Aston Spirit (Pure Digital) — RJ45 PoE + USB-C UAC2 (Mac/Apollo x6/iPhone/iPad) + Scocca Trasparente 8001",
+  "version": "1.2.1",
+  "status": "v1.2.1 — DFM JLC3DP: TPU 12.6mm (bordini 1.3mm, asola 5x7, tamponi -22/0/+22 deg), gioco corpo/griglia 0.25mm, cordoli Headamp 1.4mm · 0 interferenze rigide · PCB KiCad invariati",
+  "created_at": "2026-11-20T23:25:00+01:00",
+  "specs": {
+    "bandwidth": "20 Hz – 40 kHz (100% digitale, 0 conversioni DA→AD, 384 kHz / 24-bit)",
+    "sample_rate": "48 / 96 / 192 / 384 kHz / 24-bit — AK5572EN 2-to-1 Mono (124 dB DR)",
+    "polar_pattern": "3 Pattern Commutabili: Cardioide / Omnidirezionale / Figura-8 (bias ±60 V)",
+    "capsule": "34 mm Dual-Diaphragm Gold-Sputtered LDC (K67/CK12) + Headamp 1 GΩ OPA1656 schermato (Laird BMI-S-102)",
+    "filters": "Switch fisici Aston-style + controllo remoto: Pattern, Pad (-10 / -20 dB), HPF 80 Hz",
+    "outputs": "Doppia Uscita Digitale: RJ45 AoIP (AES67/PTPv2) + USB-C UAC2 Plug & Play (Mac + Apollo x6 Aggregate, Windows, iPhone/iPad)",
+    "power": "Arbitro Automatico PoE 802.3af (TPS23753A) > USB-C 5V con profilo iPhone/iPad Low-Power (<160 mA via POE_SENSE)",
+    "finish": "Resina Cristallina Trasparente JLC3DP 8001 + 4× LED RGB WS2812B-2020-V6 + Griglia Acciaio 316L",
+    "form_factor": "Studio LDC stile Aston Spirit (Ø 54.0 mm × 176.0 mm · Fondello Dual-Port RJ45 + USB-C + 5/8\"-27)"
+  },
+  "pricing": {
+    "currency": "EUR",
+    "pcb_fab_eur": 24.0,
+    "pcb_fab_note": "JLCPCB: Main 4-Layer (5 pz ~€8) + Headamp 2-Layer (5 pz ~€3) + JLC3DP 8001 Clear + 316L Grille + Spedizione"
+  },
+  "assets": {
+    "schematic_svg": "exports/renders/SPIRIT-IP_Main.svg",
+    "pcb_front_svg": "exports/renders/kicad_main_front.svg",
+    "pcb_back_svg": "exports/renders/kicad_main_back.svg",
+    "pcb_tip_svg": "exports/renders/kicad_headamp_front.svg",
+    "model_assembly_glb": "exports/3d/SPIRIT-IP_assembly.glb",
+    "model_assembly_step": "exports/3d/SPIRIT-IP_assembly.step",
+    "model_print_zip": "exports/3d/SPIRIT-IP_JLC3DP_3DPrint_STL.zip",
+    "model_parts": [
+      {
+        "id": "body_clear",
+        "name": "Corpo Trasparente 8001 (Ø 54 mm)",
+        "stl": "exports/3d/SPIRIT-IP_body_clear_8001.stl",
+        "step": "exports/3d/SPIRIT-IP_body_clear_8001.step",
+        "glb": "exports/3d/SPIRIT-IP_body_clear_8001.glb",
+        "color": "#dbeafe",
+        "metalness": 0.1,
+        "roughness": 0.12
+      },
+      {
+        "id": "grille_316l",
+        "name": "Griglia Wave-Form Acciaio 316L",
+        "stl": "exports/3d/SPIRIT-IP_grille_316L_metal.stl",
+        "step": "exports/3d/SPIRIT-IP_grille_316L_metal.step",
+        "glb": "exports/3d/SPIRIT-IP_grille_316L_metal.glb",
+        "color": "#cbd5e1",
+        "metalness": 0.9,
+        "roughness": 0.22
+      },
+      {
+        "id": "bottom_cap",
+        "name": "Fondello Dual-Port (RJ45 + USB-C + 5/8\"-27)",
+        "stl": "exports/3d/SPIRIT-IP_bottom_cap_triple_port.stl",
+        "step": "exports/3d/SPIRIT-IP_bottom_cap_triple_port.step",
+        "glb": "exports/3d/SPIRIT-IP_bottom_cap_triple_port.glb",
+        "color": "#334155",
+        "metalness": 0.5,
+        "roughness": 0.35
+      },
+      {
+        "id": "capsule_saddle",
+        "name": "Sella Capsula 34mm (base Z116.5, culla R18.5, 4 piedini, asola J_CAP)",
+        "stl": "exports/3d/SPIRIT-IP_capsule_saddle.stl",
+        "step": "exports/3d/SPIRIT-IP_capsule_saddle.step",
+        "glb": "exports/3d/SPIRIT-IP_capsule_saddle.glb",
+        "color": "#1e293b",
+        "metalness": 0.25,
+        "roughness": 0.5
+      },
+      {
+        "id": "capsule_34mm",
+        "name": "Capsula LDC 34mm Gold (Rif.)",
+        "stl": "exports/3d/SPIRIT-IP_capsule_34mm.stl",
+        "glb": "exports/3d/SPIRIT-IP_capsule_34mm.glb",
+        "color": "#eab308",
+        "metalness": 0.92,
+        "roughness": 0.18
+      },
+      {
+        "id": "main_pcb",
+        "name": "Main PCB 4-Layer (38×94 mm)",
+        "stl": "exports/3d/SPIRIT-IP_main_pcb.stl",
+        "glb": "exports/3d/SPIRIT-IP_main_pcb.glb",
+        "color": "#0f766e",
+        "metalness": 0.25,
+        "roughness": 0.4
+      },
+      {
+        "id": "headamp_pcb",
+        "name": "Headamp PCB 2-Layer (Ø 36 mm + Shield)",
+        "stl": "exports/3d/SPIRIT-IP_headamp_pcb.stl",
+        "glb": "exports/3d/SPIRIT-IP_headamp_pcb.glb",
+        "color": "#14b8a6",
+        "metalness": 0.25,
+        "roughness": 0.4
+      },
+      {
+        "id": "capsule_shockmount_tpu",
+        "name": "Shock-Mount Capsula TPU/silicone 1.5 mm (3 appoggi + bordini)",
+        "stl": "exports/3d/SPIRIT-IP_capsule_shockmount_TPU.stl",
+        "step": "exports/3d/SPIRIT-IP_capsule_shockmount_TPU.step",
+        "glb": "exports/3d/SPIRIT-IP_capsule_shockmount_TPU.glb",
+        "color": "#475569",
+        "metalness": 0.05,
+        "roughness": 0.7
+      },
+      {
+        "id": "headamp_shield_sh1",
+        "name": "Shield can SH1 (Rif., h 3.6 mm)",
+        "stl": "exports/3d/SPIRIT-IP_headamp_shield_SH1.stl",
+        "glb": "exports/3d/SPIRIT-IP_headamp_shield_SH1.glb",
+        "color": "#94a3b8",
+        "metalness": 0.8,
+        "roughness": 0.3
+      }
+    ],
+    "bom_csv": "hardware/bom_lcsc.csv",
+    "bom_jlcpcb_smt_csv": "hardware/BOM_Main_JLCPCB_SMT.csv",
+    "cpl_csv": "hardware/CPL_Main_JLCPCB_SMT.csv",
+    "gerber_main_zip": "exports/gerbers/SPIRIT-IP_Main_4L_JLCPCB_Gerbers.zip",
+    "gerber_tip_zip": "exports/gerbers/SPIRIT-IP_Headamp_2L_JLCPCB_Gerbers.zip",
+    "kicad_main": "hardware/main_pcb/SPIRIT-IP_Main.kicad_pcb",
+    "kicad_tip": "hardware/headamp_pcb/SPIRIT-IP_Headamp.kicad_pcb"
+  }
+}
